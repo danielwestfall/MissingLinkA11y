@@ -1,129 +1,111 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Tutorials</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
 
-    <!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Yeti Agency</li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-          <li><a href="#">Four</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Top Bar -->
-
-    <div class="callout large primary">
-      <div class="row column text-center">
-        <h1>Our Blog</h1>
-      </div>
-    </div>
-
-    <div class="row" id="content">
-      <div class="medium-8 columns">
-        <div class="blog-post">
-          <h3>Awesome blog post title <small>3/6/2015</small></h3>
-          <img class="thumbnail" src="https://placehold.it/850x350">
-          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-          <div class="callout">
-            <ul class="menu simple">
-              <li><a href="#">Author: Mike Mikers</a></li>
-              <li><a href="#">Comments: 3</a></li>
+    <header class="banner">
+        <div class="logo">Your Logo</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/learn">Learn</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer">YouTube</a></li>
             </ul>
-          </div>
+        </nav>
+    </header>
+
+    <main class="tabbed-content">
+        <div role="tablist" aria-label="Tutorial Languages">
+            <button role="tab" id="html-tab" aria-controls="html-panel" aria-selected="true">HTML</button>
+            <button role="tab" id="css-tab" aria-controls="css-panel" aria-selected="false">CSS</button>
+            <button role="tab" id="js-tab" aria-controls="js-panel" aria-selected="false">JavaScript</button>
+            <button role="tab" id="aria-tab" aria-controls="aria-panel" aria-selected="false">ARIA</button>
         </div>
 
-        <div class="blog-post">
-          <h3>Awesome blog post title <small>3/6/2015</small></h3>
-          <img class="thumbnail" src="https://placehold.it/850x350">
-          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-          <div class="callout">
-            <ul class="menu simple">
-              <li><a href="#">Author: Mike Mikers</a></li>
-              <li><a href="#">Comments: 3</a></li>
+        <div role="tabpanel" id="html-panel" aria-labelledby="html-tab">
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-button" aria-expanded="true" aria-controls="html-subjects">
+                        HTML Basics
+                    </button>
+                    <div id="html-subjects" class="accordion-panel">
+                        <button data-article="intro-html">Introduction to HTML</button>
+                        <button data-article="html-structure">HTML Structure</button>
+                        <button data-article="html-forms">HTML Forms</button>
+                    </div>
+                </div>
+            </div>
+            <div id="html-article-content" class="article-content">Click a subject to view articles.</div>
+        </div>
+
+        <div role="tabpanel" id="css-panel" aria-labelledby="css-tab" hidden>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-button" aria-expanded="true" aria-controls="css-subjects">
+                        CSS Fundamentals
+                    </button>
+                    <div id="css-subjects" class="accordion-panel">
+                        <button data-article="css-basics">CSS Basics</button>
+                        <button data-article="css-selectors">CSS Selectors</button>
+                        <button data-article="css-layout">CSS Layout</button>
+                    </div>
+                </div>
+            </div>
+            <div id="css-article-content" class="article-content">Click a subject to view articles.</div>
+        </div>
+
+        <div role="tabpanel" id="js-panel" aria-labelledby="js-tab" hidden>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-button" aria-expanded="true" aria-controls="js-subjects">
+                        JS Fundamentals
+                    </button>
+                    <div id="js-subjects" class="accordion-panel">
+                        <button data-article="js-fundamentals">JS Fundamentals</button>
+                        <button data-article="dom-manipulation">DOM Manipulation</button>
+                        <button data-article="async-js">Asynchronous JS</button>
+                    </div>
+                </div>
+            </div>
+            <div id="js-article-content" class="article-content">Click a subject to view articles.</div>
+        </div>
+
+        <div role="tabpanel" id="aria-panel" aria-labelledby="aria-tab" hidden>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-button" aria-expanded="true" aria-controls="aria-subjects">
+                        ARIA Basics
+                    </button>
+                    <div id="aria-subjects" class="accordion-panel">
+                        <button data-article="aria-roles">ARIA Roles</button>
+                        <button data-article="aria-attributes">ARIA Attributes</button>
+                        <button data-article="aria-live">ARIA Live Regions</button>
+                    </div>
+                </div>
+            </div>
+            <div id="aria-article-content" class="article-content">Click a subject to view articles.</div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <ul>
+                <li><a href="/learn">Learn</a></li>
+                <li><a href="/about">About Me</a></li>
+                <li><a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer">YouTube</a></li>
             </ul>
-          </div>
         </div>
-
-        <div class="blog-post">
-          <h3>Awesome blog post title <small>3/6/2015</small></h3>
-          <img class="thumbnail" src="https://placehold.it/850x350">
-          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-          <div class="callout">
-            <ul class="menu simple">
-              <li><a href="#">Author: Mike Mikers</a></li>
-              <li><a href="#">Comments: 3</a></li>
-            </ul>
-          </div>
+        <div class="contact-info">
+            <p><a href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p><a href="mailto:your.email@example.com">Email: your.email@example.com</a></p>
+            <p>Contact: <a href="tel:+15551234567">555-123-4567</a> (Optional)</p>
         </div>
+        <p>© 2025 Your Name | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+    </footer>
 
-        <div class="blog-post">
-          <h3>Awesome blog post title <small>3/6/2015</small></h3>
-          <img class="thumbnail" src="https://placehold.it/850x350">
-          <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-          <div class="callout">
-            <ul class="menu simple">
-              <li><a href="#">Author: Mike Mikers</a></li>
-              <li><a href="#">Comments: 3</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="medium-3 columns" data-sticky-container>
-        <div class="sticky" data-sticky data-anchor="content">
-          <h4>Categories</h4>
-          <ul>
-            <li><a href="#">Skyler</a></li>
-            <li><a href="#">Jesse</a></li>
-            <li><a href="#">Mike</a></li>
-            <li><a href="#">Holly</a></li>
-          </ul>
-
-          <h4>Authors</h4>
-          <ul>
-            <li><a href="#">Skyler</a></li>
-            <li><a href="#">Jesse</a></li>
-            <li><a href="#">Mike</a></li>
-            <li><a href="#">Holly</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="row column">
-      <ul class="pagination" role="navigation" aria-label="Pagination">
-        <li class="disabled">Previous</li>
-        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-        <li><a href="#" aria-label="Page 2">2</a></li>
-        <li><a href="#" aria-label="Page 3">3</a></li>
-        <li><a href="#" aria-label="Page 4">4</a></li>
-        <li class="ellipsis"></li>
-        <li><a href="#" aria-label="Page 12">12</a></li>
-        <li><a href="#" aria-label="Page 13">13</a></li>
-        <li><a href="#" aria-label="Next page">Next</a></li>
-      </ul>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+    <script src="script.js"></script> </body>
 </html>
-
-
-

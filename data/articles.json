@@ -1,0 +1,50 @@
+{
+  "intro-html": {
+    "title": "Introduction to HTML",
+    "content": "<p>HTML (HyperText Markup Language) is the backbone of all web pages. It provides the structure and meaning to the content displayed in a browser.</p><p>Key concepts include elements, tags, and attributes.</p>"
+  },
+  "html-structure": {
+    "title": "Understanding HTML Structure",
+    "content": "<p>Every HTML document follows a basic structure: the &lt;!DOCTYPE html&gt; declaration, the &lt;html&gt; root element, the &lt;head&gt; for metadata, and the &lt;body&gt; for the visible content.</p>"
+  },
+  "html-forms": {
+    "title": "Working with HTML Forms",
+    "content": "<p>HTML forms are used to collect user input. They consist of various elements like &lt;input&gt;, &lt;textarea&gt;, and &lt;button&gt;.</p>"
+  },
+  "css-basics": {
+    "title": "CSS Basics",
+    "content": "<p>Cascading Style Sheets (CSS) is used to style the appearance of HTML documents. It controls things like colors, fonts, and layout.</p>"
+  },
+  "css-selectors": {
+    "title": "Mastering CSS Selectors",
+    "content": "<p>CSS selectors are patterns used to select the HTML elements you want to style. Common selectors include element selectors, class selectors, and ID selectors.</p>"
+  },
+  "css-layout": {
+    "title": "CSS Layout Techniques",
+    "content": "<p>CSS offers various layout models like Flexbox and Grid, which allow you to arrange elements on a page in sophisticated ways.</p>"
+  },
+  "js-fundamentals": {
+    "title": "JavaScript Fundamentals",
+    "content": "<p>JavaScript is a scripting language that enables dynamic and interactive content on websites. Key concepts include variables, data types, and functions.</p>"
+  },
+  "dom-manipulation": {
+    "title": "DOM Manipulation with JavaScript",
+    "content": "<p>The Document Object Model (DOM) represents the structure of an HTML document as a tree of objects. JavaScript can be used to manipulate this tree.</p>"
+  },
+  "async-js": {
+    "title": "Asynchronous JavaScript",
+    "content": "<p>Asynchronous JavaScript allows you to perform long-running operations without blocking the main thread, improving the responsiveness of your application. Concepts include callbacks, Promises, and async/await.</p>"
+  },
+  "aria-roles": {
+    "title": "Understanding ARIA Roles",
+    "content": "<p>ARIA roles define the type of user interface element a component represents to assistive technologies.</p>"
+  },
+  "aria-attributes": {
+    "title": "Using ARIA Attributes",
+    "content": "<p>ARIA attributes provide additional information about the state and properties of UI elements, making them more accessible.</p>"
+  },
+  "aria-live": {
+    "title": "Implementing ARIA Live Regions",
+    "content": "<p>ARIA live regions are used to announce dynamic content updates to screen reader users without requiring focus changes.</p>"
+  }
+}
