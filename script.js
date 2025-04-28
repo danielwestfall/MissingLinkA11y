@@ -7,6 +7,23 @@ tabs.forEach(tab => {
     tab.addEventListener('keydown', handleTabKeyDown);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  const buttons = document.querySelectorAll('[data-toggle-group]');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+      const currentGroup = this.parentNode; // Get the parent group element
+      const groupButtons = currentGroup.querySelectorAll('[data-toggle-group="' + this.dataset.toggleGroup + '"]'); // Select buttons within the same group
+
+      groupButtons.forEach(btn => {
+        btn.setAttribute('aria-selected', 'false');
+      });
+
+      this.setAttribute('aria-selected', 'true');
+    });
+  });
+});
+
 function handleTabClick(event) {
     const clickedTab = event.target;
     switchTab(clickedTab);

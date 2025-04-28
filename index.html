@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessible Tutorials</title>
-    <link rel="stylesheet" href="styles.css"> </head>
+    <title>CodeA11y | Home</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="[REPLACE WITH PAGE DESCRIPTION - Informative, engaging, relevant keywords]">
+
+    <meta name="robots" content="[REPLACE WITH INDEX/FOLLOW INSTRUCTIONS - e.g., index, follow]">
+    <meta name="author" content="[REPLACE WITH AUTHOR NAME]">
+    <meta name="copyright" content="[REPLACE WITH COPYRIGHT NOTICE]">
+    <meta name="language" content="[REPLACE WITH LANGUAGE - e.g., en]">
+    <meta name="theme-color" content="[REPLACE WITH HEX COLOR CODE - e.g., #f0f0f0]">
+
+    <meta property="og:title" content="[REPLACE WITH SHARING TITLE - Engaging, similar to <title>]">
+    <meta property="og:description" content="[REPLACE WITH SHARING DESCRIPTION - Similar to <meta name='description'>]">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="[REPLACE WITH CANONICAL URL]">
+    <meta property="og:image" content="[REPLACE WITH URL OF SHAREABLE IMAGE]">
+    <meta property="og:locale" content="[REPLACE WITH LANGUAGE AND REGION - e.g., en_US]">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[REPLACE WITH TWITTER TITLE]">
+    <meta name="twitter:description" content="[REPLACE WITH TWITTER DESCRIPTION]">
+    <meta name="twitter:image" content="[REPLACE WITH URL OF TWITTER IMAGE]">
+    <meta name="twitter:site" content="[REPLACE WITH YOUR TWITTER HANDLE]">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="[REPLACE WITH CANONICAL URL]">
+
+    <meta name="google-site-verification" content="[REPLACE WITH GOOGLE SITE VERIFICATION CODE]">
+    <meta name="bing-site-auth" content="[REPLACE WITH BING SITE AUTHENTICATION CODE]">
+    <link rel="apple-touch-icon" href="[REPLACE WITH URL OF APPLE TOUCH ICON]">
+    <meta name="format-detection" content="telephone=no, email=no, address=no">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+
 <body>
 
     <header class="banner">
-        <div class="logo">Your Logo</div>
+        <div class="logo">
+            <img src="assets/codea11y_logo.svg" alt="codea11y" height="75" loading="lazy">
+        </div>
         <nav class="navbar">
             <ul>
                 <li><a href="/learn">Learn</a></li>
                 <li><a href="/about">About Me</a></li>
-                <li><a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                <li><a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer">YouTube</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -33,13 +77,44 @@
                         HTML Basics
                     </button>
                     <div id="html-subjects" class="accordion-panel">
-                        <button data-article="intro-html">Introduction to HTML</button>
-                        <button data-article="html-structure">HTML Structure</button>
-                        <button data-article="html-forms">HTML Forms</button>
+                        <button data-article="intro-html" type="button" aria-selected="false"
+                            data-toggle-group="group-a">Introduction to HTML</button>
+                        <button data-article="html-structure" type="button" aria-selected="false"
+                            data-toggle-group="group-a">HTML Structure</button>
+                        <button data-article="html-forms" type="button" aria-selected="false"
+                            data-toggle-group="group-a">HTML Forms</button>
                     </div>
                 </div>
             </div>
-            <div id="html-article-content" class="article-content">Click a subject to view articles.</div>
+            <div id="html-article-content" class="article-content">
+
+                <div class="row">
+                    <div class="text-column">
+                        <p>
+                        <h2>HTML</h2>
+                        Think of HTML as the fundamental framework of a webpage, much like the 2x4s that form the
+                        skeleton of a
+                        house. It
+                        provides the essential structure by defining the different sections, headings, paragraphs,
+                        images, and
+                        other elements
+                        that make up the content. Just as the 2x4s dictate the shape and layout of rooms, HTML tags
+                        organize the
+                        information on
+                        a page into a logical hierarchy. Without this underlying structure, the content would be a
+                        disorganized
+                        jumble, unable
+                        to be properly presented or styled.</p>
+                    </div>
+                    <div class="image-column">
+                        <img src="assets/build_structure.png"
+                            alt="Framing a house with wood like structuring a webpage with HTML">
+                    </div>
+                </div>
+
+
+
+            </div>
         </div>
 
         <div role="tabpanel" id="css-panel" aria-labelledby="css-tab" hidden>
@@ -49,13 +124,38 @@
                         CSS Fundamentals
                     </button>
                     <div id="css-subjects" class="accordion-panel">
-                        <button data-article="css-basics">CSS Basics</button>
-                        <button data-article="css-selectors">CSS Selectors</button>
-                        <button data-article="css-layout">CSS Layout</button>
+                        <button data-article="css-basics" type="button" aria-selected="false"
+                            data-toggle-group="group-b">CSS Basics</button>
+                        <button data-article="css-selectors" type="button" aria-selected="false"
+                            data-toggle-group="group-b">CSS Selectors</button>
+                        <button data-article="css-layout" type="button" aria-selected="false"
+                            data-toggle-group="group-b">CSS Layout</button>
                     </div>
                 </div>
             </div>
-            <div id="css-article-content" class="article-content">Click a subject to view articles.</div>
+            <div id="css-article-content" class="article-content">
+
+                <div class="row">
+                    <div class="text-column">
+                        <p>
+                        <h2>CSS</h2>
+                        Think of CSS as the paint, wallpaper, furniture, and decorations for your webpage's HTML
+                        structure. Just as you'd choose
+                        colors, textures, and layouts to transform a bare room, CSS allows you to style the visual
+                        appearance of your website
+                        elements. It controls everything from colors and fonts to spacing and positioning, bringing
+                        personality and visual
+                        appeal to the underlying content. Without CSS, your webpage would be like an unpainted house –
+                        functional but lacking in
+                        aesthetics and overall user experience.</p>
+                    </div>
+                    <div class="image-column">
+                        <img src="assets/build_design.png" alt="Decorating a house like designing a webpage with CSS">
+                    </div>
+                </div>
+
+
+            </div>
         </div>
 
         <div role="tabpanel" id="js-panel" aria-labelledby="js-tab" hidden>
@@ -65,13 +165,38 @@
                         JS Fundamentals
                     </button>
                     <div id="js-subjects" class="accordion-panel">
-                        <button data-article="js-fundamentals">JS Fundamentals</button>
-                        <button data-article="dom-manipulation">DOM Manipulation</button>
-                        <button data-article="async-js">Asynchronous JS</button>
+                        <button data-article="js-fundamentals" type="button" aria-selected="false"
+                            data-toggle-group="group-c">JS Fundamentals</button>
+                        <button data-article="dom-manipulation" type="button" aria-selected="false"
+                            data-toggle-group="group-c">DOM Manipulation</button>
+                        <button data-article="async-js" type="button" aria-selected="false"
+                            data-toggle-group="group-c">Asynchronous JS</button>
                     </div>
                 </div>
             </div>
-            <div id="js-article-content" class="article-content">Click a subject to view articles.</div>
+            <div id="js-article-content" class="article-content">
+
+                <div class="row">
+                    <div class="text-column">
+                        <p>
+                        <h2>JavaScript</h2>
+                        Consider JavaScript the electrical wiring, plumbing, and smart devices of your webpage, bringing
+                        dynamic functionality
+                        to the static HTML structure. It enables interactive elements like buttons that respond to
+                        clicks, forms that validate
+                        user input, and dynamic content that updates without requiring a full page reload. Just as
+                        utilities make a house
+                        livable and functional, JavaScript adds behavior and interactivity, transforming a basic webpage
+                        into a dynamic and
+                        engaging user experience. It's the behind-the-scenes logic that makes things happen.</p>
+                    </div>
+                    <div class="image-column">
+                        <img src="assets/build_wiring.png"
+                            alt="Adding utilities to a house like adding functionality to a webpage with JavaScript">
+                    </div>
+                </div>
+
+            </div>
         </div>
 
         <div role="tabpanel" id="aria-panel" aria-labelledby="aria-tab" hidden>
@@ -81,31 +206,61 @@
                         ARIA Basics
                     </button>
                     <div id="aria-subjects" class="accordion-panel">
-                        <button data-article="aria-roles">ARIA Roles</button>
-                        <button data-article="aria-attributes">ARIA Attributes</button>
-                        <button data-article="aria-live">ARIA Live Regions</button>
+                        <button data-article="aria-roles" type="button" aria-selected="false"
+                            data-toggle-group="group-d">ARIA Roles</button>
+                        <button data-article="aria-attributes" type="button" aria-selected="false"
+                            data-toggle-group="group-d">ARIA Attributes</button>
+                        <button data-article="aria-live" type="button" aria-selected="false"
+                            data-toggle-group="group-d">ARIA Live Regions</button>
                     </div>
                 </div>
             </div>
-            <div id="aria-article-content" class="article-content">Click a subject to view articles.</div>
+            <div id="aria-article-content" class="article-content">
+
+                <div class="row">
+                    <div class="text-column">
+                        <p>
+                        <h2>ARIA</h2>
+                        Think of ARIA attributes as the labels you meticulously apply to the breakers in an electrical
+                        panel. Just as those
+                        labels clarify the function of each switch ("kitchen lights," "outlets"), ARIA provides semantic
+                        meaning to HTML
+                        elements for assistive technologies like screen readers. By adding ARIA roles, states, and
+                        properties, you clearly
+                        define the purpose and current status of interactive components, making your website
+                        understandable and navigable for
+                        users with disabilities. Without these labels, the functionality might be present, but its
+                        purpose would be ambiguous
+                        and inaccessible.</p>
+                    </div>
+                    <div class="image-column">
+                        <img src="assets/build_identify.png"
+                            alt="Adding utilities to a house like adding functionality to a webpage with JavaScript">
+                    </div>
+                </div>
+
+            </div>
         </div>
     </main>
 
     <footer class="footer">
         <div class="footer-links">
             <ul>
-                <li><a href="/learn">Learn</a></li>
+                <li><a href="#" aria-current="true">Learn</a></li>
                 <li><a href="/about">About Me</a></li>
-                <li><a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                <li><a href="https://www.youtube.com/channel/UCXKRL86_pPtqy_C_13ikaew" target="_blank"
+                        rel="noopener noreferrer">YouTube</a>
+                </li>
             </ul>
         </div>
         <div class="contact-info">
-            <p><a href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-            <p><a href="mailto:your.email@example.com">Email: your.email@example.com</a></p>
-            <p>Contact: <a href="tel:+15551234567">555-123-4567</a> (Optional)</p>
+            <p>© 2025 Daniel Westfall | <a href="mailto:your.email@example.com">Email: your.email@example.com</a> | <a
+                    href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a></p>
         </div>
-        <p>© 2025 Your Name | <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
     </footer>
 
-    <script src="script.js"></script> </body>
+    <script src="script.js"></script>
+</body>
+
 </html>
