@@ -1,50 +1,2322 @@
 {
-  "intro-html": {
-    "title": "Introduction to HTML",
-    "content": "<p>HTML (HyperText Markup Language) is the backbone of all web pages. It provides the structure and meaning to the content displayed in a browser.</p><p>Key concepts include elements, tags, and attributes.</p>"
+  "html-what-is-html": {
+    "title": "What is HTML?",
+    "content": "<p>Content for 'What is HTML?' goes here...</p>"
   },
-  "html-structure": {
-    "title": "Understanding HTML Structure",
-    "content": "<p>Every HTML document follows a basic structure: the &lt;!DOCTYPE html&gt; declaration, the &lt;html&gt; root element, the &lt;head&gt; for metadata, and the &lt;body&gt; for the visible content.</p>"
+  "html-why-learn-html": {
+    "title": "Why Learn HTML?",
+    "content": "<p>Content for 'Why Learn HTML?' goes here...</p>"
   },
-  "html-forms": {
-    "title": "Working with HTML Forms",
-    "content": "<p>HTML forms are used to collect user input. They consist of various elements like &lt;input&gt;, &lt;textarea&gt;, and &lt;button&gt;.</p>"
+  "html-tools-you-need": {
+    "title": "Tools You Need",
+    "content": "<p>Content for 'Tools You Need' goes here...</p>"
   },
-  "css-basics": {
-    "title": "CSS Basics",
-    "content": "<p>Cascading Style Sheets (CSS) is used to style the appearance of HTML documents. It controls things like colors, fonts, and layout.</p>"
+  "html-your-first-html-file": {
+    "title": "Your First HTML File",
+    "content": "<p>Content for 'Your First HTML File' goes here...</p>"
   },
-  "css-selectors": {
-    "title": "Mastering CSS Selectors",
-    "content": "<p>CSS selectors are patterns used to select the HTML elements you want to style. Common selectors include element selectors, class selectors, and ID selectors.</p>"
+  "html-basic-html-structure": {
+    "title": "Basic HTML Structure",
+    "content": "<p>Content for 'Basic HTML Structure' goes here...</p>"
   },
-  "css-layout": {
-    "title": "CSS Layout Techniques",
-    "content": "<p>CSS offers various layout models like Flexbox and Grid, which allow you to arrange elements on a page in sophisticated ways.</p>"
+  "html-the-head-section": {
+    "title": "The <head> Section",
+    "content": "<p>Content for 'The &lt;head&gt; Section' goes here...</p>"
   },
-  "js-fundamentals": {
-    "title": "JavaScript Fundamentals",
-    "content": "<p>JavaScript is a scripting language that enables dynamic and interactive content on websites. Key concepts include variables, data types, and functions.</p>"
+  "html-the-body-section": {
+    "title": "The <body> Section",
+    "content": "<p>Content for 'The &lt;body&gt; Section' goes here...</p>"
   },
-  "dom-manipulation": {
-    "title": "DOM Manipulation with JavaScript",
-    "content": "<p>The Document Object Model (DOM) represents the structure of an HTML document as a tree of objects. JavaScript can be used to manipulate this tree.</p>"
+  "html-headings-h1-h6": {
+    "title": "Headings (h1-h6)",
+    "content": "<p>Content for 'Headings (h1-h6)' goes here...</p>"
   },
-  "async-js": {
-    "title": "Asynchronous JavaScript",
-    "content": "<p>Asynchronous JavaScript allows you to perform long-running operations without blocking the main thread, improving the responsiveness of your application. Concepts include callbacks, Promises, and async/await.</p>"
+  "html-paragraphs-p": {
+    "title": "Paragraphs (p)",
+    "content": "<p>Content for 'Paragraphs (p)' goes here...</p>"
   },
-  "aria-roles": {
-    "title": "Understanding ARIA Roles",
-    "content": "<p>ARIA roles define the type of user interface element a component represents to assistive technologies.</p>"
+  "html-text-format-bold": {
+    "title": "Text Format: Bold",
+    "content": "<p>Content for 'Text Format: Bold' goes here...</p>"
   },
-  "aria-attributes": {
-    "title": "Using ARIA Attributes",
-    "content": "<p>ARIA attributes provide additional information about the state and properties of UI elements, making them more accessible.</p>"
+  "html-text-format-italics": {
+    "title": "Text Format: Italics",
+    "content": "<p>Content for 'Text Format: Italics' goes here...</p>"
   },
-  "aria-live": {
-    "title": "Implementing ARIA Live Regions",
-    "content": "<p>ARIA live regions are used to announce dynamic content updates to screen reader users without requiring focus changes.</p>"
+  "html-save-view-html": {
+    "title": "Save & View HTML",
+    "content": "<p>Content for 'Save & View HTML' goes here...</p>"
+  },
+  "html-beginner-mistakes": {
+    "title": "Beginner Mistakes",
+    "content": "<p>Content for 'Beginner Mistakes' goes here...</p>"
+  },
+  "html-quiz-1-basics": {
+    "title": "Quiz 1: Basics",
+    "content": "<p>Content for 'Quiz 1: Basics' goes here...</p>"
+  },
+  "html-unordered-lists-ul": {
+    "title": "Unordered Lists (<ul>)",
+    "content": "<p>Content for 'Unordered Lists (&lt;ul&gt;)' goes here...</p>"
+  },
+  "html-ordered-lists-ol": {
+    "title": "Ordered Lists (<ol>)",
+    "content": "<p>Content for 'Ordered Lists (&lt;ol&gt;)' goes here...</p>"
+  },
+  "html-descriptive-lists-dl": {
+    "title": "Descriptive Lists (<dl>)",
+    "content": "<p>Content for 'Descriptive Lists (&lt;dl&gt;)' goes here...</p>"
+  },
+  "html-breaks-br-rules-hr": {
+    "title": "Breaks (<br>), Rules (<hr>)",
+    "content": "<p>Content for 'Breaks (&lt;br&gt;), Rules (&lt;hr&gt;)' goes here...</p>"
+  },
+  "html-images-img-src": {
+    "title": "Images (<img>): src",
+    "content": "<p>Content for 'Images (&lt;img&gt;): src' goes here...</p>"
+  },
+  "html-images-img-alt-a11y": {
+    "title": "Images (<img>): alt (A11y)",
+    "content": "<p>Content for 'Images (&lt;img&gt;): alt (A11y)' goes here...</p>"
+  },
+  "html-image-dimensions-best": {
+    "title": "Image Dimensions (Best)",
+    "content": "<p>Content for 'Image Dimensions (Best)' goes here...</p>"
+  },
+  "html-links-a-href-internal": {
+    "title": "Links (<a>): href (Internal)",
+    "content": "<p>Content for 'Links (&lt;a&gt;): href (Internal)' goes here...</p>"
+  },
+  "html-links-a-href-external": {
+    "title": "Links (<a>): href (External)",
+    "content": "<p>Content for 'Links (&lt;a&gt;): href (External)' goes here...</p>"
+  },
+  "html-links-a-target-blank": {
+    "title": "Links (<a>): target (_blank)",
+    "content": "<p>Content for 'Links (&lt;a&gt;): target (_blank)' goes here...</p>"
+  },
+  "html-content-div": {
+    "title": "Content: <div>",
+    "content": "<p>Content for 'Content: &lt;div&gt;' goes here...</p>"
+  },
+  "html-semantic-header-nav-main-footer": {
+    "title": "Semantic: <header>, <nav>, <main>, <footer>",
+    "content": "<p>Content for 'Semantic: &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;footer&gt;' goes here...</p>"
+  },
+  "html-semantic-article-section-aside": {
+    "title": "Semantic: <article>, <section>, <aside>",
+    "content": "<p>Content for 'Semantic: &lt;article&gt;, &lt;section&gt;, &lt;aside&gt;' goes here...</p>"
+  },
+  "html-inline-vs-block": {
+    "title": "Inline vs Block",
+    "content": "<p>Content for 'Inline vs Block' goes here...</p>"
+  },
+  "html-quiz-2-lists-images-links": {
+    "title": "Quiz 2: Lists, Images, Links",
+    "content": "<p>Content for 'Quiz 2: Lists, Images, Links' goes here...</p>"
+  },
+  "html-intro-tables": {
+    "title": "Intro Tables",
+    "content": "<p>Content for 'Intro Tables' goes here...</p>"
+  },
+  "html-table-headers-th": {
+    "title": "Table Headers (<th>)",
+    "content": "<p>Content for 'Table Headers (&lt;th&gt;)' goes here...</p>"
+  },
+  "html-table-captions-caption": {
+    "title": "Table Captions (<caption>)",
+    "content": "<p>Content for 'Table Captions (&lt;caption&gt;)' goes here...</p>"
+  },
+  "html-row-col-spanning": {
+    "title": "Row/Col Spanning",
+    "content": "<p>Content for 'Row/Col Spanning' goes here...</p>"
+  },
+  "html-table-structure-thead-tbody-tfoot": {
+    "title": "Table Structure (thead, tbody, tfoot)",
+    "content": "<p>Content for 'Table Structure (thead, tbody, tfoot)' goes here...</p>"
+  },
+  "html-basic-forms-form": {
+    "title": "Basic Forms (<form>)",
+    "content": "<p>Content for 'Basic Forms (&lt;form&gt;)' goes here...</p>"
+  },
+  "html-text-input": {
+    "title": "Text Input",
+    "content": "<p>Content for 'Text Input' goes here...</p>"
+  },
+  "html-password-input": {
+    "title": "Password Input",
+    "content": "<p>Content for 'Password Input' goes here...</p>"
+  },
+  "html-submit-buttons": {
+    "title": "Submit Buttons",
+    "content": "<p>Content for 'Submit Buttons' goes here...</p>"
+  },
+  "html-labels-label": {
+    "title": "Labels (<label>)",
+    "content": "<p>Content for 'Labels (&lt;label&gt;)' goes here...</p>"
+  },
+  "html-radio-buttons": {
+    "title": "Radio Buttons",
+    "content": "<p>Content for 'Radio Buttons' goes here...</p>"
+  },
+  "html-checkboxes": {
+    "title": "Checkboxes",
+    "content": "<p>Content for 'Checkboxes' goes here...</p>"
+  },
+  "html-dropdown-select": {
+    "title": "Dropdown Select",
+    "content": "<p>Content for 'Dropdown Select' goes here...</p>"
+  },
+  "html-text-areas": {
+    "title": "Text Areas",
+    "content": "<p>Content for 'Text Areas' goes here...</p>"
+  },
+  "html-fieldset-legend": {
+    "title": "Fieldset & Legend",
+    "content": "<p>Content for 'Fieldset & Legend' goes here...</p>"
+  },
+  "html-form-attributes-action-method": {
+    "title": "Form Attributes (action, method)",
+    "content": "<p>Content for 'Form Attributes (action, method)' goes here...</p>"
+  },
+  "html-quiz-3-tables-forms": {
+    "title": "Quiz 3: Tables/Forms",
+    "content": "<p>Content for 'Quiz 3: Tables/Forms' goes here...</p>"
+  },
+  "html-embed-video": {
+    "title": "Embed Video",
+    "content": "<p>Content for 'Embed Video' goes here...</p>"
+  },
+  "html-video-attributes": {
+    "title": "Video Attributes",
+    "content": "<p>Content for 'Video Attributes' goes here...</p>"
+  },
+  "html-video-a11y-captions": {
+    "title": "Video A11y: Captions",
+    "content": "<p>Content for 'Video A11y: Captions' goes here...</p>"
+  },
+  "html-embed-audio": {
+    "title": "Embed Audio",
+    "content": "<p>Content for 'Embed Audio' goes here...</p>"
+  },
+  "html-audio-attributes": {
+    "title": "Audio Attributes",
+    "content": "<p>Content for 'Audio Attributes' goes here...</p>"
+  },
+  "html-embed-webpages-iframe": {
+    "title": "Embed Webpages (<iframe>)",
+    "content": "<p>Content for 'Embed Webpages (&lt;iframe&gt;)' goes here...</p>"
+  },
+  "html-embed-svg-inline": {
+    "title": "Embed SVG (Inline)",
+    "content": "<p>Content for 'Embed SVG (Inline)' goes here...</p>"
+  },
+  "html-embed-canvas": {
+    "title": "Embed Canvas",
+    "content": "<p>Content for 'Embed Canvas' goes here...</p>"
+  },
+  "html-quiz-4-multimedia": {
+    "title": "Quiz 4: Multimedia",
+    "content": "<p>Content for 'Quiz 4: Multimedia' goes here...</p>"
+  },
+  "html-details-summary": {
+    "title": "<details> & <summary>",
+    "content": "<p>Content for '&lt;details&gt; &amp; &lt;summary&gt;' goes here...</p>"
+  },
+  "html-dialog": {
+    "title": "<dialog>",
+    "content": "<p>Content for '&lt;dialog&gt;' goes here...</p>"
+  },
+  "html-figure-figcaption": {
+    "title": "<figure> & <figcaption>",
+    "content": "<p>Content for '&lt;figure&gt; &amp; &lt;figcaption&gt;' goes here...</p>"
+  },
+  "html-time": {
+    "title": "<time>",
+    "content": "<p>Content for '&lt;time&gt;' goes here...</p>"
+  },
+  "html-address": {
+    "title": "<address>",
+    "content": "<p>Content for '&lt;address&gt;' goes here...</p>"
+  },
+  "html-cite": {
+    "title": "<cite>",
+    "content": "<p>Content for '&lt;cite&gt;' goes here...</p>"
+  },
+  "html-q-blockquote": {
+    "title": "<q> & <blockquote>",
+    "content": "<p>Content for '&lt;q&gt; &amp; &lt;blockquote&gt;' goes here...</p>"
+  },
+  "html-pre-code": {
+    "title": "<pre> & <code>",
+    "content": "<p>Content for '&lt;pre&gt; &amp; &lt;code&gt;' goes here...</p>"
+  },
+  "html-inline-code-semantics": {
+    "title": "Inline Code Semantics",
+    "content": "<p>Content for 'Inline Code Semantics' goes here...</p>"
+  },
+  "html-metadata-details": {
+    "title": "Metadata Details",
+    "content": "<p>Content for 'Metadata Details' goes here...</p>"
+  },
+  "html-charset-utf-8": {
+    "title": "Charset (UTF-8)",
+    "content": "<p>Content for 'Charset (UTF-8)' goes here...</p>"
+  },
+  "html-viewport-meta": {
+    "title": "Viewport Meta",
+    "content": "<p>Content for 'Viewport Meta' goes here...</p>"
+  },
+  "html-language-attributes": {
+    "title": "Language Attributes",
+    "content": "<p>Content for 'Language Attributes' goes here...</p>"
+  },
+  "html-quiz-5-advanced-semantics": {
+    "title": "Quiz 5: Advanced Semantics",
+    "content": "<p>Content for 'Quiz 5: Advanced Semantics' goes here...</p>"
+  },
+  "html-semantic-html-for-a11y": {
+    "title": "Semantic HTML for A11y",
+    "content": "<p>Content for 'Semantic HTML for A11y' goes here...</p>"
+  },
+  "html-aria-intro-role": {
+    "title": "ARIA: Intro & role",
+    "content": "<p>Content for 'ARIA: Intro &amp; role' goes here...</p>"
+  },
+  "html-aria-attributes-label-labelledby": {
+    "title": "ARIA Attributes (label, labelledby, etc.)",
+    "content": "<p>Content for 'ARIA Attributes (label, labelledby, etc.)' goes here...</p>"
+  },
+  "html-aria-attributes-hidden-expanded": {
+    "title": "ARIA Attributes (hidden, expanded, controls)",
+    "content": "<p>Content for 'ARIA Attributes (hidden, expanded, controls)' goes here...</p>"
+  },
+  "html-keyboard-nav-best-practices": {
+    "title": "Keyboard Nav Best Practices",
+    "content": "<p>Content for 'Keyboard Nav Best Practices' goes here...</p>"
+  },
+  "html-focus-management": {
+    "title": "Focus Management",
+    "content": "<p>Content for 'Focus Management' goes here...</p>"
+  },
+  "html-accessible-forms": {
+    "title": "Accessible Forms",
+    "content": "<p>Content for 'Accessible Forms' goes here...</p>"
+  },
+  "html-accessible-tables": {
+    "title": "Accessible Tables",
+    "content": "<p>Content for 'Accessible Tables' goes here...</p>"
+  },
+  "html-accessible-images-alt-text": {
+    "title": "Accessible Images (alt text)",
+    "content": "<p>Content for 'Accessible Images (alt text)' goes here...</p>"
+  },
+  "html-accessible-multimedia": {
+    "title": "Accessible Multimedia",
+    "content": "<p>Content for 'Accessible Multimedia' goes here...</p>"
+  },
+  "html-design-for-color-blindness": {
+    "title": "Design for Color Blindness",
+    "content": "<p>Content for 'Design for Color Blindness' goes here...</p>"
+  },
+  "html-a11y-testing-basic": {
+    "title": "A11y Testing (Basic)",
+    "content": "<p>Content for 'A11y Testing (Basic)' goes here...</p>"
+  },
+  "html-quiz-6-accessibility": {
+    "title": "Quiz 6: Accessibility",
+    "content": "<p>Content for 'Quiz 6: Accessibility' goes here...</p>"
+  },
+  "html-intro-html5-apis": {
+    "title": "Intro HTML5 APIs",
+    "content": "<p>Content for 'Intro HTML5 APIs' goes here...</p>"
+  },
+  "html-geolocation-api": {
+    "title": "Geolocation API",
+    "content": "<p>Content for 'Geolocation API' goes here...</p>"
+  },
+  "html-canvas-api": {
+    "title": "Canvas API",
+    "content": "<p>Content for 'Canvas API' goes here...</p>"
+  },
+  "html-audio-video-apis-advanced": {
+    "title": "Audio/Video APIs (Advanced)",
+    "content": "<p>Content for 'Audio/Video APIs (Advanced)' goes here...</p>"
+  },
+  "html-web-storage": {
+    "title": "Web Storage",
+    "content": "<p>Content for 'Web Storage' goes here...</p>"
+  },
+  "html-drag-and-drop-api": {
+    "title": "Drag and Drop API",
+    "content": "<p>Content for 'Drag and Drop API' goes here...</p>"
+  },
+  "html-web-workers": {
+    "title": "Web Workers",
+    "content": "<p>Content for 'Web Workers' goes here...</p>"
+  },
+  "html-websockets-intro": {
+    "title": "WebSockets (Intro)",
+    "content": "<p>Content for 'WebSockets (Intro)' goes here...</p>"
+  },
+  "html-quiz-7-html5-apis": {
+    "title": "Quiz 7: HTML5 APIs",
+    "content": "<p>Content for 'Quiz 7: HTML5 APIs' goes here...</p>"
+  },
+  "html-html-validation": {
+    "title": "HTML Validation",
+    "content": "<p>Content for 'HTML Validation' goes here...</p>"
+  },
+  "html-code-formatting": {
+    "title": "Code Formatting",
+    "content": "<p>Content for 'Code Formatting' goes here...</p>"
+  },
+  "html-performance-loading": {
+    "title": "Performance: Loading",
+    "content": "<p>Content for 'Performance: Loading' goes here...</p>"
+  },
+  "html-frameworks-libraries-html-use": {
+    "title": "Frameworks/Libraries (HTML Use)",
+    "content": "<p>Content for 'Frameworks/Libraries (HTML Use)' goes here...</p>"
+  },
+  "html-html-templating": {
+    "title": "HTML Templating",
+    "content": "<p>Content for 'HTML Templating' goes here...</p>"
+  },
+  "html-microdata-schema-org": {
+    "title": "Microdata & Schema.org",
+    "content": "<p>Content for 'Microdata &amp; Schema.org' goes here...</p>"
+  },
+  "html-custom-data-attributes": {
+    "title": "Custom Data Attributes",
+    "content": "<p>Content for 'Custom Data Attributes' goes here...</p>"
+  },
+  "html-html-in-email": {
+    "title": "HTML in Email",
+    "content": "<p>Content for 'HTML in Email' goes here...</p>"
+  },
+  "html-html-evolution": {
+    "title": "HTML Evolution",
+    "content": "<p>Content for 'HTML Evolution' goes here...</p>"
+  },
+  "html-staying-up-to-date": {
+    "title": "Staying Up-to-Date",
+    "content": "<p>Content for 'Staying Up-to-Date' goes here...</p>"
+  },
+  "html-contribute-to-communities": {
+    "title": "Contribute to Communities",
+    "content": "<p>Content for 'Contribute to Communities' goes here...</p>"
+  },
+  "html-quiz-8-best-practices": {
+    "title": "Quiz 8: Best Practices",
+    "content": "<p>Content for 'Quiz 8: Best Practices' goes here...</p>"
+  },
+  "html-html5-apis-deep-dive": {
+    "title": "HTML5 APIs (Deep Dive)",
+    "content": "<p>Content for 'HTML5 APIs (Deep Dive)' goes here...</p>"
+  },
+  "html-advanced-svg": {
+    "title": "Advanced SVG",
+    "content": "<p>Content for 'Advanced SVG' goes here...</p>"
+  },
+  "html-performance-tuning-complex": {
+    "title": "Performance Tuning (Complex)",
+    "content": "<p>Content for 'Performance Tuning (Complex)' goes here...</p>"
+  },
+  "html-advanced-a11y-testing": {
+    "title": "Advanced A11y Testing",
+    "content": "<p>Content for 'Advanced A11y Testing' goes here...</p>"
+  },
+  "html-html-ssr": {
+    "title": "HTML & SSR",
+    "content": "<p>Content for 'HTML &amp; SSR' goes here...</p>"
+  },
+  "html-html-in-pwas": {
+    "title": "HTML in PWAs",
+    "content": "<p>Content for 'HTML in PWAs' goes here...</p>"
+  },
+  "html-future-of-html": {
+    "title": "Future of HTML",
+    "content": "<p>Content for 'Future of HTML' goes here...</p>"
+  },
+  "html-contribute-to-standard": {
+    "title": "Contribute to Standard",
+    "content": "<p>Content for 'Contribute to Standard' goes here...</p>"
+  },
+  "html-custom-semantic-elements-aria": {
+    "title": "Custom Semantic Elements (ARIA)",
+    "content": "<p>Content for 'Custom Semantic Elements (ARIA)' goes here...</p>"
+  },
+  "html-advanced-forms-validation": {
+    "title": "Advanced Forms/Validation",
+    "content": "<p>Content for 'Advanced Forms/Validation' goes here...</p>"
+  },
+  "html-i18n-l10n-with-html": {
+    "title": "i18n/l10n with HTML",
+    "content": "<p>Content for 'i18n/l10n with HTML' goes here...</p>"
+  },
+  "html-security-best-practices": {
+    "title": "Security Best Practices",
+    "content": "<p>Content for 'Security Best Practices' goes here...</p>"
+  },
+  "html-final-project": {
+    "title": "Final Project",
+    "content": "<p>Content for 'Final Project' goes here...</p>"
+  },
+  "css-what-is-css": {
+    "title": "What is CSS?",
+    "content": "<p>Content for 'What is CSS?' goes here...</p>"
+  },
+  "css-why-learn-css": {
+    "title": "Why Learn CSS?",
+    "content": "<p>Content for 'Why Learn CSS?' goes here...</p>"
+  },
+  "css-css-syntax": {
+    "title": "CSS Syntax",
+    "content": "<p>Content for 'CSS Syntax' goes here...</p>"
+  },
+  "css-apply-css-inline": {
+    "title": "Apply CSS: Inline",
+    "content": "<p>Content for 'Apply CSS: Inline' goes here...</p>"
+  },
+  "css-apply-css-internal": {
+    "title": "Apply CSS: Internal",
+    "content": "<p>Content for 'Apply CSS: Internal' goes here...</p>"
+  },
+  "css-apply-css-external": {
+    "title": "Apply CSS: External",
+    "content": "<p>Content for 'Apply CSS: External' goes here...</p>"
+  },
+  "css-create-css-file": {
+    "title": "Create CSS File",
+    "content": "<p>Content for 'Create CSS File' goes here...</p>"
+  },
+  "css-link-css-to-html": {
+    "title": "Link CSS to HTML",
+    "content": "<p>Content for 'Link CSS to HTML' goes here...</p>"
+  },
+  "css-element-selectors": {
+    "title": "Element Selectors",
+    "content": "<p>Content for 'Element Selectors' goes here...</p>"
+  },
+  "css-class-selectors": {
+    "title": "Class Selectors",
+    "content": "<p>Content for 'Class Selectors' goes here...</p>"
+  },
+  "css-id-selectors": {
+    "title": "ID Selectors",
+    "content": "<p>Content for 'ID Selectors' goes here...</p>"
+  },
+  "css-understanding-cascade": {
+    "title": "Understanding Cascade",
+    "content": "<p>Content for 'Understanding Cascade' goes here...</p>"
+  },
+  "css-specificity": {
+    "title": "Specificity",
+    "content": "<p>Content for 'Specificity' goes here...</p>"
+  },
+  "css-inheritance": {
+    "title": "Inheritance",
+    "content": "<p>Content for 'Inheritance' goes here...</p>"
+  },
+  "css-beginner-mistakes": {
+    "title": "Beginner Mistakes",
+    "content": "<p>Content for 'Beginner Mistakes' goes here...</p>"
+  },
+  "css-quiz-1-intro-selectors": {
+    "title": "Quiz 1: Intro/Selectors",
+    "content": "<p>Content for 'Quiz 1: Intro/Selectors' goes here...</p>"
+  },
+  "css-color": {
+    "title": "color",
+    "content": "<p>Content for 'color' goes here...</p>"
+  },
+  "css-font-family": {
+    "title": "font-family",
+    "content": "<p>Content for 'font-family' goes here...</p>"
+  },
+  "css-font-size": {
+    "title": "font-size",
+    "content": "<p>Content for 'font-size' goes here...</p>"
+  },
+  "css-font-weight": {
+    "title": "font-weight",
+    "content": "<p>Content for 'font-weight' goes here...</p>"
+  },
+  "css-font-style": {
+    "title": "font-style",
+    "content": "<p>Content for 'font-style' goes here...</p>"
+  },
+  "css-text-decoration": {
+    "title": "text-decoration",
+    "content": "<p>Content for 'text-decoration' goes here...</p>"
+  },
+  "css-text-align": {
+    "title": "text-align",
+    "content": "<p>Content for 'text-align' goes here...</p>"
+  },
+  "css-line-height": {
+    "title": "line-height",
+    "content": "<p>Content for 'line-height' goes here...</p>"
+  },
+  "css-letter-word-spacing": {
+    "title": "letter/word-spacing",
+    "content": "<p>Content for 'letter/word-spacing' goes here...</p>"
+  },
+  "css-text-transform": {
+    "title": "text-transform",
+    "content": "<p>Content for 'text-transform' goes here...</p>"
+  },
+  "css-text-indent": {
+    "title": "text-indent",
+    "content": "<p>Content for 'text-indent' goes here...</p>"
+  },
+  "css-using-google-fonts": {
+    "title": "Using Google Fonts",
+    "content": "<p>Content for 'Using Google Fonts' goes here...</p>"
+  },
+  "css-quiz-2-styling-text": {
+    "title": "Quiz 2: Styling Text",
+    "content": "<p>Content for 'Quiz 2: Styling Text' goes here...</p>"
+  },
+  "css-intro-box-model": {
+    "title": "Intro Box Model",
+    "content": "<p>Content for 'Intro Box Model' goes here...</p>"
+  },
+  "css-width-height": {
+    "title": "width & height",
+    "content": "<p>Content for 'width &amp; height' goes here...</p>"
+  },
+  "css-padding": {
+    "title": "padding",
+    "content": "<p>Content for 'padding' goes here...</p>"
+  },
+  "css-border": {
+    "title": "border",
+    "content": "<p>Content for 'border' goes here...</p>"
+  },
+  "css-margin": {
+    "title": "margin",
+    "content": "<p>Content for 'margin' goes here...</p>"
+  },
+  "css-box-sizing": {
+    "title": "box-sizing",
+    "content": "<p>Content for 'box-sizing' goes here...</p>"
+  },
+  "css-display": {
+    "title": "display",
+    "content": "<p>Content for 'display' goes here...</p>"
+  },
+  "css-display-none-vs-visibility-hidden": {
+    "title": "display:none vs visibility:hidden",
+    "content": "<p>Content for 'display:none vs visibility:hidden' goes here...</p>"
+  },
+  "css-quiz-3-box-model": {
+    "title": "Quiz 3: Box Model",
+    "content": "<p>Content for 'Quiz 3: Box Model' goes here...</p>"
+  },
+  "css-background-color": {
+    "title": "background-color",
+    "content": "<p>Content for 'background-color' goes here...</p>"
+  },
+  "css-background-image": {
+    "title": "background-image",
+    "content": "<p>Content for 'background-image' goes here...</p>"
+  },
+  "css-background-repeat": {
+    "title": "background-repeat",
+    "content": "<p>Content for 'background-repeat' goes here...</p>"
+  },
+  "css-background-position": {
+    "title": "background-position",
+    "content": "<p>Content for 'background-position' goes here...</p>"
+  },
+  "css-background-size": {
+    "title": "background-size",
+    "content": "<p>Content for 'background-size' goes here...</p>"
+  },
+  "css-background-attachment": {
+    "title": "background-attachment",
+    "content": "<p>Content for 'background-attachment' goes here...</p>"
+  },
+  "css-background-shorthand": {
+    "title": "background Shorthand",
+    "content": "<p>Content for 'background Shorthand' goes here...</p>"
+  },
+  "css-hex-colors": {
+    "title": "Hex Colors",
+    "content": "<p>Content for 'Hex Colors' goes here...</p>"
+  },
+  "css-rgb-rgba-colors": {
+    "title": "RGB/RGBA Colors",
+    "content": "<p>Content for 'RGB/RGBA Colors' goes here...</p>"
+  },
+  "css-hsl-hsla-colors": {
+    "title": "HSL/HSLA Colors",
+    "content": "<p>Content for 'HSL/HSLA Colors' goes here...</p>"
+  },
+  "css-color-contrast-a11y": {
+    "title": "Color Contrast (A11y)",
+    "content": "<p>Content for 'Color Contrast (A11y)' goes here...</p>"
+  },
+  "css-quiz-4-backgrounds-colors": {
+    "title": "Quiz 4: Backgrounds/Colors",
+    "content": "<p>Content for 'Quiz 4: Backgrounds/Colors' goes here...</p>"
+  },
+  "css-normal-flow-positioning": {
+    "title": "Normal Flow & Positioning",
+    "content": "<p>Content for 'Normal Flow &amp; Positioning' goes here...</p>"
+  },
+  "css-float": {
+    "title": "float",
+    "content": "<p>Content for 'float' goes here...</p>"
+  },
+  "css-clear": {
+    "title": "clear",
+    "content": "<p>Content for 'clear' goes here...</p>"
+  },
+  "css-intro-layout-techniques": {
+    "title": "Intro Layout Techniques",
+    "content": "<p>Content for 'Intro Layout Techniques' goes here...</p>"
+  },
+  "css-fixed-width-layouts": {
+    "title": "Fixed-Width Layouts",
+    "content": "<p>Content for 'Fixed-Width Layouts' goes here...</p>"
+  },
+  "css-fluid-layouts": {
+    "title": "Fluid Layouts",
+    "content": "<p>Content for 'Fluid Layouts' goes here...</p>"
+  },
+  "css-quiz-5-basic-layout": {
+    "title": "Quiz 5: Basic Layout",
+    "content": "<p>Content for 'Quiz 5: Basic Layout' goes here...</p>"
+  },
+  "css-attribute-selectors": {
+    "title": "Attribute Selectors",
+    "content": "<p>Content for 'Attribute Selectors' goes here...</p>"
+  },
+  "css-pseudo-classes-state": {
+    "title": "Pseudo-Classes (State)",
+    "content": "<p>Content for 'Pseudo-Classes (State)' goes here...</p>"
+  },
+  "css-pseudo-classes-structural": {
+    "title": "Pseudo-Classes (Structural)",
+    "content": "<p>Content for 'Pseudo-Classes (Structural)' goes here...</p>"
+  },
+  "css-pseudo-elements": {
+    "title": "Pseudo-Elements",
+    "content": "<p>Content for 'Pseudo-Elements' goes here...</p>"
+  },
+  "css-pseudo-elements-text": {
+    "title": "Pseudo-Elements (Text)",
+    "content": "<p>Content for 'Pseudo-Elements (Text)' goes here...</p>"
+  },
+  "css-descendant-selectors-space": {
+    "title": "Descendant Selectors (Space)",
+    "content": "<p>Content for 'Descendant Selectors (Space)' goes here...</p>"
+  },
+  "css-child-selectors": {
+    "title": "Child Selectors (>)",
+    "content": "<p>Content for 'Child Selectors (&gt;)' goes here...</p>"
+  },
+  "css-adjacent-sibling-selectors": {
+    "title": "Adjacent Sibling Selectors (+)",
+    "content": "<p>Content for 'Adjacent Sibling Selectors (+)' goes here...</p>"
+  },
+  "css-general-sibling-selectors": {
+    "title": "General Sibling Selectors (~)",
+    "content": "<p>Content for 'General Sibling Selectors (~)' goes here...</p>"
+  },
+  "css-specificity-revisited": {
+    "title": "Specificity Revisited",
+    "content": "<p>Content for 'Specificity Revisited' goes here...</p>"
+  },
+  "css-quiz-6-advanced-selectors": {
+    "title": "Quiz 6: Advanced Selectors",
+    "content": "<p>Content for 'Quiz 6: Advanced Selectors' goes here...</p>"
+  },
+  "css-what-is-rwd": {
+    "title": "What is RWD?",
+    "content": "<p>Content for 'What is RWD?' goes here...</p>"
+  },
+  "css-viewport-meta-tag": {
+    "title": "Viewport Meta Tag",
+    "content": "<p>Content for 'Viewport Meta Tag' goes here...</p>"
+  },
+  "css-fluid-layouts-percentages": {
+    "title": "Fluid Layouts (Percentages)",
+    "content": "<p>Content for 'Fluid Layouts (Percentages)' goes here...</p>"
+  },
+  "css-intro-media-queries": {
+    "title": "Intro Media Queries",
+    "content": "<p>Content for 'Intro Media Queries' goes here...</p>"
+  },
+  "css-target-widths-media": {
+    "title": "Target Widths (@media)",
+    "content": "<p>Content for 'Target Widths (@media)' goes here...</p>"
+  },
+  "css-responsive-typography": {
+    "title": "Responsive Typography",
+    "content": "<p>Content for 'Responsive Typography' goes here...</p>"
+  },
+  "css-responsive-images": {
+    "title": "Responsive Images",
+    "content": "<p>Content for 'Responsive Images' goes here...</p>"
+  },
+  "css-quiz-7-intro-rwd": {
+    "title": "Quiz 7: Intro RWD",
+    "content": "<p>Content for 'Quiz 7: Intro RWD' goes here...</p>"
+  },
+  "css-intro-flexbox": {
+    "title": "Intro Flexbox",
+    "content": "<p>Content for 'Intro Flexbox' goes here...</p>"
+  },
+  "css-flex-container": {
+    "title": "Flex Container",
+    "content": "<p>Content for 'Flex Container' goes here...</p>"
+  },
+  "css-flex-direction": {
+    "title": "flex-direction",
+    "content": "<p>Content for 'flex-direction' goes here...</p>"
+  },
+  "css-justify-content": {
+    "title": "justify-content",
+    "content": "<p>Content for 'justify-content' goes here...</p>"
+  },
+  "css-align-items": {
+    "title": "align-items",
+    "content": "<p>Content for 'align-items' goes here...</p>"
+  },
+  "css-flex-wrap": {
+    "title": "flex-wrap",
+    "content": "<p>Content for 'flex-wrap' goes here...</p>"
+  },
+  "css-align-content": {
+    "title": "align-content",
+    "content": "<p>Content for 'align-content' goes here...</p>"
+  },
+  "css-order": {
+    "title": "order",
+    "content": "<p>Content for 'order' goes here...</p>"
+  },
+  "css-flex-grow": {
+    "title": "flex-grow",
+    "content": "<p>Content for 'flex-grow' goes here...</p>"
+  },
+  "css-flex-shrink": {
+    "title": "flex-shrink",
+    "content": "<p>Content for 'flex-shrink' goes here...</p>"
+  },
+  "css-flex-basis": {
+    "title": "flex-basis",
+    "content": "<p>Content for 'flex-basis' goes here...</p>"
+  },
+  "css-flex-shorthand": {
+    "title": "flex Shorthand",
+    "content": "<p>Content for 'flex Shorthand' goes here...</p>"
+  },
+  "css-align-self": {
+    "title": "align-self",
+    "content": "<p>Content for 'align-self' goes here...</p>"
+  },
+  "css-flexbox-examples": {
+    "title": "Flexbox Examples",
+    "content": "<p>Content for 'Flexbox Examples' goes here...</p>"
+  },
+  "css-quiz-8-flexbox": {
+    "title": "Quiz 8: Flexbox",
+    "content": "<p>Content for 'Quiz 8: Flexbox' goes here...</p>"
+  },
+  "css-intro-grid": {
+    "title": "Intro Grid",
+    "content": "<p>Content for 'Intro Grid' goes here...</p>"
+  },
+  "css-grid-container": {
+    "title": "Grid Container",
+    "content": "<p>Content for 'Grid Container' goes here...</p>"
+  },
+  "css-grid-template-rows-columns": {
+    "title": "grid-template-rows/columns",
+    "content": "<p>Content for 'grid-template-rows/columns' goes here...</p>"
+  },
+  "css-grid-gap": {
+    "title": "grid-gap",
+    "content": "<p>Content for 'grid-gap' goes here...</p>"
+  },
+  "css-placing-grid-items": {
+    "title": "Placing Grid Items",
+    "content": "<p>Content for 'Placing Grid Items' goes here...</p>"
+  },
+  "css-grid-row-column-shorthand": {
+    "title": "grid-row/column Shorthand",
+    "content": "<p>Content for 'grid-row/column Shorthand' goes here...</p>"
+  },
+  "css-named-grid-lines": {
+    "title": "Named Grid Lines",
+    "content": "<p>Content for 'Named Grid Lines' goes here...</p>"
+  },
+  "css-grid-template-areas": {
+    "title": "Grid Template Areas",
+    "content": "<p>Content for 'Grid Template Areas' goes here...</p>"
+  },
+  "css-implicit-vs-explicit-grids": {
+    "title": "Implicit vs Explicit Grids",
+    "content": "<p>Content for 'Implicit vs Explicit Grids' goes here...</p>"
+  },
+  "css-justify-align-items-item": {
+    "title": "justify/align-items (Item)",
+    "content": "<p>Content for 'justify/align-items (Item)' goes here...</p>"
+  },
+  "css-justify-align-content-track": {
+    "title": "justify/align-content (Track)",
+    "content": "<p>Content for 'justify/align-content (Track)' goes here...</p>"
+  },
+  "css-repeat-function": {
+    "title": "repeat() Function",
+    "content": "<p>Content for 'repeat() Function' goes here...</p>"
+  },
+  "css-minmax-function": {
+    "title": "minmax() Function",
+    "content": "<p>Content for 'minmax() Function' goes here...</p>"
+  },
+  "css-fr-unit": {
+    "title": "fr Unit",
+    "content": "<p>Content for 'fr Unit' goes here...</p>"
+  },
+  "css-grid-examples": {
+    "title": "Grid Examples",
+    "content": "<p>Content for 'Grid Examples' goes here...</p>"
+  },
+  "css-flexbox-grid": {
+    "title": "Flexbox + Grid",
+    "content": "<p>Content for 'Flexbox + Grid' goes here...</p>"
+  },
+  "css-quiz-9-grid": {
+    "title": "Quiz 9: Grid",
+    "content": "<p>Content for 'Quiz 9: Grid' goes here...</p>"
+  },
+  "css-intro-transitions": {
+    "title": "Intro Transitions",
+    "content": "<p>Content for 'Intro Transitions' goes here...</p>"
+  },
+  "css-transition-property": {
+    "title": "transition-property",
+    "content": "<p>Content for 'transition-property' goes here...</p>"
+  },
+  "css-transition-duration": {
+    "title": "transition-duration",
+    "content": "<p>Content for 'transition-duration' goes here...</p>"
+  },
+  "css-transition-timing-function": {
+    "title": "transition-timing-function",
+    "content": "<p>Content for 'transition-timing-function' goes here...</p>"
+  },
+  "css-transition-delay": {
+    "title": "transition-delay",
+    "content": "<p>Content for 'transition-delay' goes here...</p>"
+  },
+  "css-transition-shorthand": {
+    "title": "transition Shorthand",
+    "content": "<p>Content for 'transition Shorthand' goes here...</p>"
+  },
+  "css-intro-animations": {
+    "title": "Intro Animations",
+    "content": "<p>Content for 'Intro Animations' goes here...</p>"
+  },
+  "css-keyframes-rule": {
+    "title": "@keyframes Rule",
+    "content": "<p>Content for '@keyframes Rule' goes here...</p>"
+  },
+  "css-animation-name": {
+    "title": "animation-name",
+    "content": "<p>Content for 'animation-name' goes here...</p>"
+  },
+  "css-animation-duration": {
+    "title": "animation-duration",
+    "content": "<p>Content for 'animation-duration' goes here...</p>"
+  },
+  "css-animation-timing-function": {
+    "title": "animation-timing-function",
+    "content": "<p>Content for 'animation-timing-function' goes here...</p>"
+  },
+  "css-animation-delay": {
+    "title": "animation-delay",
+    "content": "<p>Content for 'animation-delay' goes here...</p>"
+  },
+  "css-animation-iteration-count": {
+    "title": "animation-iteration-count",
+    "content": "<p>Content for 'animation-iteration-count' goes here...</p>"
+  },
+  "css-animation-direction": {
+    "title": "animation-direction",
+    "content": "<p>Content for 'animation-direction' goes here...</p>"
+  },
+  "css-animation-fill-mode": {
+    "title": "animation-fill-mode",
+    "content": "<p>Content for 'animation-fill-mode' goes here...</p>"
+  },
+  "css-animation-play-state": {
+    "title": "animation-play-state",
+    "content": "<p>Content for 'animation-play-state' goes here...</p>"
+  },
+  "css-animation-shorthand": {
+    "title": "animation Shorthand",
+    "content": "<p>Content for 'animation Shorthand' goes here...</p>"
+  },
+  "css-perf-considerations": {
+    "title": "Perf Considerations",
+    "content": "<p>Content for 'Perf Considerations' goes here...</p>"
+  },
+  "css-a11y-considerations-reduced-motion": {
+    "title": "A11y Considerations (Reduced Motion)",
+    "content": "<p>Content for 'A11y Considerations (Reduced Motion)' goes here...</p>"
+  },
+  "css-quiz-10-transitions-animations": {
+    "title": "Quiz 10: Transitions/Animations",
+    "content": "<p>Content for 'Quiz 10: Transitions/Animations' goes here...</p>"
+  },
+  "css-intro-transforms": {
+    "title": "Intro Transforms",
+    "content": "<p>Content for 'Intro Transforms' goes here...</p>"
+  },
+  "css-2d-transforms": {
+    "title": "2D Transforms",
+    "content": "<p>Content for '2D Transforms' goes here...</p>"
+  },
+  "css-transform-origin": {
+    "title": "transform-origin",
+    "content": "<p>Content for 'transform-origin' goes here...</p>"
+  },
+  "css-3d-transforms-intro": {
+    "title": "3D Transforms (Intro)",
+    "content": "<p>Content for '3D Transforms (Intro)' goes here...</p>"
+  },
+  "css-perspective": {
+    "title": "perspective",
+    "content": "<p>Content for 'perspective' goes here...</p>"
+  },
+  "css-transform-style": {
+    "title": "transform-style",
+    "content": "<p>Content for 'transform-style' goes here...</p>"
+  },
+  "css-intro-filters": {
+    "title": "Intro Filters",
+    "content": "<p>Content for 'Intro Filters' goes here...</p>"
+  },
+  "css-basic-filters": {
+    "title": "Basic Filters",
+    "content": "<p>Content for 'Basic Filters' goes here...</p>"
+  },
+  "css-color-filters": {
+    "title": "Color Filters",
+    "content": "<p>Content for 'Color Filters' goes here...</p>"
+  },
+  "css-advanced-filters": {
+    "title": "Advanced Filters",
+    "content": "<p>Content for 'Advanced Filters' goes here...</p>"
+  },
+  "css-multiple-filters": {
+    "title": "Multiple Filters",
+    "content": "<p>Content for 'Multiple Filters' goes here...</p>"
+  },
+  "css-perf-considerations-transforms-filters": {
+    "title": "Perf Considerations",
+    "content": "<p>Content for 'Perf Considerations' goes here...</p>"
+  },
+  "css-quiz-11-transforms-filters": {
+    "title": "Quiz 11: Transforms/Filters",
+    "content": "<p>Content for 'Quiz 11: Transforms/Filters' goes here...</p>"
+  },
+  "css-complex-media-queries": {
+    "title": "Complex Media Queries",
+    "content": "<p>Content for 'Complex Media Queries' goes here...</p>"
+  },
+  "css-breakpoint-strategies": {
+    "title": "Breakpoint Strategies",
+    "content": "<p>Content for 'Breakpoint Strategies' goes here...</p>"
+  },
+  "css-responsive-images-depth": {
+    "title": "Responsive Images (Depth)",
+    "content": "<p>Content for 'Responsive Images (Depth)' goes here...</p>"
+  },
+  "css-flexible-units-em-rem-vw-vh": {
+    "title": "Flexible Units (em, rem, vw, vh)",
+    "content": "<p>Content for 'Flexible Units (em, rem, vw, vh)' goes here...</p>"
+  },
+  "css-mobile-first-vs-desktop-first": {
+    "title": "Mobile-First vs Desktop-First",
+    "content": "<p>Content for 'Mobile-First vs Desktop-First' goes here...</p>"
+  },
+  "css-testing-responsive": {
+    "title": "Testing Responsive",
+    "content": "<p>Content for 'Testing Responsive' goes here...</p>"
+  },
+  "css-a11y-considerations-responsive": {
+    "title": "A11y Considerations",
+    "content": "<p>Content for 'A11y Considerations' goes here...</p>"
+  },
+  "css-quiz-12-advanced-rwd": {
+    "title": "Quiz 12: Advanced RWD",
+    "content": "<p>Content for 'Quiz 12: Advanced RWD' goes here...</p>"
+  },
+  "css-what-are-preprocessors": {
+    "title": "What are Preprocessors?",
+    "content": "<p>Content for 'What are Preprocessors?' goes here...</p>"
+  },
+  "css-why-use-preprocessor": {
+    "title": "Why Use Preprocessor?",
+    "content": "<p>Content for 'Why Use Preprocessor?' goes here...</p>"
+  },
+  "css-sass-less-variables": {
+    "title": "Sass/Less: Variables",
+    "content": "<p>Content for 'Sass/Less: Variables' goes here...</p>"
+  },
+  "css-sass-less-nesting": {
+    "title": "Sass/Less: Nesting",
+    "content": "<p>Content for 'Sass/Less: Nesting' goes here...</p>"
+  },
+  "css-sass-less-mixins": {
+    "title": "Sass/Less: Mixins",
+    "content": "<p>Content for 'Sass/Less: Mixins' goes here...</p>"
+  },
+  "css-other-features": {
+    "title": "Other Features",
+    "content": "<p>Content for 'Other Features' goes here...</p>"
+  },
+  "css-compiling": {
+    "title": "Compiling",
+    "content": "<p>Content for 'Compiling' goes here...</p>"
+  },
+  "css-quiz-13-preprocessors": {
+    "title": "Quiz 13: Preprocessors",
+    "content": "<p>Content for 'Quiz 13: Preprocessors' goes here...</p>"
+  },
+  "css-what-are-frameworks": {
+    "title": "What are Frameworks?",
+    "content": "<p>Content for 'What are Frameworks?' goes here...</p>"
+  },
+  "css-why-use-framework": {
+    "title": "Why Use Framework?",
+    "content": "<p>Content for 'Why Use Framework?' goes here...</p>"
+  },
+  "css-framework-structure-grid": {
+    "title": "Framework Structure (Grid)",
+    "content": "<p>Content for 'Framework Structure (Grid)' goes here...</p>"
+  },
+  "css-using-components": {
+    "title": "Using Components",
+    "content": "<p>Content for 'Using Components' goes here...</p>"
+  },
+  "css-customizing-framework": {
+    "title": "Customizing Framework",
+    "content": "<p>Content for 'Customizing Framework' goes here...</p>"
+  },
+  "css-a11y-considerations-frameworks": {
+    "title": "A11y Considerations",
+    "content": "<p>Content for 'A11y Considerations' goes here...</p>"
+  },
+  "css-quiz-14-frameworks": {
+    "title": "Quiz 14: Frameworks",
+    "content": "<p>Content for 'Quiz 14: Frameworks' goes here...</p>"
+  },
+  "css-css-variables-depth": {
+    "title": "CSS Variables (Depth)",
+    "content": "<p>Content for 'CSS Variables (Depth)' goes here...</p>"
+  },
+  "css-calc-function": {
+    "title": "calc() Function",
+    "content": "<p>Content for 'calc() Function' goes here...</p>"
+  },
+  "css-css-houdini-intro": {
+    "title": "CSS Houdini (Intro)",
+    "content": "<p>Content for 'CSS Houdini (Intro)' goes here...</p>"
+  },
+  "css-perf-reduce-file-size": {
+    "title": "Perf: Reduce File Size",
+    "content": "<p>Content for 'Perf: Reduce File Size' goes here...</p>"
+  },
+  "css-perf-avoid-layout-thrashing": {
+    "title": "Perf: Avoid Layout Thrashing",
+    "content": "<p>Content for 'Perf: Avoid Layout Thrashing' goes here...</p>"
+  },
+  "css-critical-rendering-path": {
+    "title": "Critical Rendering Path",
+    "content": "<p>Content for 'Critical Rendering Path' goes here...</p>"
+  },
+  "css-css-modules-scoped-styling": {
+    "title": "CSS Modules/Scoped Styling",
+    "content": "<p>Content for 'CSS Modules/Scoped Styling' goes here...</p>"
+  },
+  "css-maintainable-scalable-css": {
+    "title": "Maintainable/Scalable CSS",
+    "content": "<p>Content for 'Maintainable/Scalable CSS' goes here...</p>"
+  },
+  "css-css-in-js-concepts": {
+    "title": "CSS-in-JS (Concepts)",
+    "content": "<p>Content for 'CSS-in-JS (Concepts)' goes here...</p>"
+  },
+  "css-shadow-dom": {
+    "title": "Shadow DOM",
+    "content": "<p>Content for 'Shadow DOM' goes here...</p>"
+  },
+  "css-advanced-animations": {
+    "title": "Advanced Animations",
+    "content": "<p>Content for 'Advanced Animations' goes here...</p>"
+  },
+  "css-quiz-15-advanced-perf": {
+    "title": "Quiz 15: Advanced/Perf",
+    "content": "<p>Content for 'Quiz 15: Advanced/Perf' goes here...</p>"
+  },
+  "css-css-houdini-apis-deep-dive": {
+    "title": "CSS Houdini APIs (Deep Dive)",
+    "content": "<p>Content for 'CSS Houdini APIs (Deep Dive)' goes here...</p>"
+  },
+  "css-advanced-grid-flexbox": {
+    "title": "Advanced Grid/Flexbox",
+    "content": "<p>Content for 'Advanced Grid/Flexbox' goes here...</p>"
+  },
+  "css-perf-profiling-optimization": {
+    "title": "Perf Profiling/Optimization",
+    "content": "<p>Content for 'Perf Profiling/Optimization' goes here...</p>"
+  },
+  "css-contribute-to-specs": {
+    "title": "Contribute to Specs",
+    "content": "<p>Content for 'Contribute to Specs' goes here...</p>"
+  },
+  "css-emerging-features": {
+    "title": "Emerging Features",
+    "content": "<p>Content for 'Emerging Features' goes here...</p>"
+  },
+  "css-styling-for-print-media": {
+    "title": "Styling for Print/Media",
+    "content": "<p>Content for 'Styling for Print/Media' goes here...</p>"
+  },
+  "css-css-with-backend": {
+    "title": "CSS with Backend",
+    "content": "<p>Content for 'CSS with Backend' goes here...</p>"
+  },
+  "css-architecting-large-codebases": {
+    "title": "Architecting Large Codebases",
+    "content": "<p>Content for 'Architecting Large Codebases' goes here...</p>"
+  },
+  "css-advanced-a11y-ux": {
+    "title": "Advanced A11y/UX",
+    "content": "<p>Content for 'Advanced A11y/UX' goes here...</p>"
+  },
+  "css-final-project": {
+    "title": "Final Project",
+    "content": "<p>Content for 'Final Project' goes here...</p>"
+  },
+  "js-what-is-js": {
+    "title": "What is JS?",
+    "content": "<p>Content for 'What is JS?' goes here...</p>"
+  },
+  "js-why-learn-js": {
+    "title": "Why Learn JS?",
+    "content": "<p>Content for 'Why Learn JS?' goes here...</p>"
+  },
+  "js-tools-you-need": {
+    "title": "Tools You Need",
+    "content": "<p>Content for 'Tools You Need' goes here...</p>"
+  },
+  "js-script-tag": {
+    "title": "<script> tag",
+    "content": "<p>Content for '&lt;script&gt; tag' goes here...</p>"
+  },
+  "js-external-js-files": {
+    "title": "External JS Files",
+    "content": "<p>Content for 'External JS Files' goes here...</p>"
+  },
+  "js-console-log": {
+    "title": "console.log()",
+    "content": "<p>Content for 'console.log()' goes here...</p>"
+  },
+  "js-statements-semicolons": {
+    "title": "Statements/Semicolons",
+    "content": "<p>Content for 'Statements/Semicolons' goes here...</p>"
+  },
+  "js-comments": {
+    "title": "Comments",
+    "content": "<p>Content for 'Comments' goes here...</p>"
+  },
+  "js-variables-let-const-var": {
+    "title": "Variables (let, const, var)",
+    "content": "<p>Content for 'Variables (let, const, var)' goes here...</p>"
+  },
+  "js-data-types-numbers-strings": {
+    "title": "Data Types (Numbers, Strings, Booleans)",
+    "content": "<p>Content for 'Data Types (Numbers, Strings, Booleans)' goes here...</p>"
+  },
+  "js-null-undefined": {
+    "title": "null and undefined",
+    "content": "<p>Content for 'null and undefined' goes here...</p>"
+  },
+  "js-assignment-operator": {
+    "title": "Assignment Operator",
+    "content": "<p>Content for 'Assignment Operator' goes here...</p>"
+  },
+  "js-arithmetic-operators": {
+    "title": "Arithmetic Operators",
+    "content": "<p>Content for 'Arithmetic Operators' goes here...</p>"
+  },
+  "js-beginner-mistakes": {
+    "title": "Beginner Mistakes",
+    "content": "<p>Content for 'Beginner Mistakes' goes here...</p>"
+  },
+  "js-quiz-1-intro-basics": {
+    "title": "Quiz 1: Intro/Basics",
+    "content": "<p>Content for 'Quiz 1: Intro/Basics' goes here...</p>"
+  },
+  "js-what-is-the-dom": {
+    "title": "What is the DOM?",
+    "content": "<p>Content for 'What is the DOM?' goes here...</p>"
+  },
+  "js-getelementbyid": {
+    "title": "getElementById()",
+    "content": "<p>Content for 'getElementById()' goes here...</p>"
+  },
+  "js-getelementsbyclassname": {
+    "title": "getElementsByClassName()",
+    "content": "<p>Content for 'getElementsByClassName()' goes here...</p>"
+  },
+  "js-getelementsbytagname": {
+    "title": "getElementsByTagName()",
+    "content": "<p>Content for 'getElementsByTagName()' goes here...</p>"
+  },
+  "js-queryselector-all": {
+    "title": "querySelector/All()",
+    "content": "<p>Content for 'querySelector/All()' goes here...</p>"
+  },
+  "js-textcontent": {
+    "title": "textContent",
+    "content": "<p>Content for 'textContent' goes here...</p>"
+  },
+  "js-innerhtml-caution": {
+    "title": "innerHTML (Caution)",
+    "content": "<p>Content for 'innerHTML (Caution)' goes here...</p>"
+  },
+  "js-get-set-attribute": {
+    "title": "get/setAttribute()",
+    "content": "<p>Content for 'get/setAttribute()' goes here...</p>"
+  },
+  "js-classlist": {
+    "title": "classList",
+    "content": "<p>Content for 'classList' goes here...</p>"
+  },
+  "js-element-style": {
+    "title": "element.style",
+    "content": "<p>Content for 'element.style' goes here...</p>"
+  },
+  "js-intro-events": {
+    "title": "Intro Events",
+    "content": "<p>Content for 'Intro Events' goes here...</p>"
+  },
+  "js-addeventlistener": {
+    "title": "addEventListener()",
+    "content": "<p>Content for 'addEventListener()' goes here...</p>"
+  },
+  "js-common-events": {
+    "title": "Common Events",
+    "content": "<p>Content for 'Common Events' goes here...</p>"
+  },
+  "js-first-interactive-example": {
+    "title": "First Interactive Example",
+    "content": "<p>Content for 'First Interactive Example' goes here...</p>"
+  },
+  "js-quiz-2-basic-dom": {
+    "title": "Quiz 2: Basic DOM",
+    "content": "<p>Content for 'Quiz 2: Basic DOM' goes here...</p>"
+  },
+  "js-comparison-operators": {
+    "title": "Comparison Operators",
+    "content": "<p>Content for 'Comparison Operators' goes here...</p>"
+  },
+  "js-logical-operators": {
+    "title": "Logical Operators",
+    "content": "<p>Content for 'Logical Operators' goes here...</p>"
+  },
+  "js-if-statements": {
+    "title": "if Statements",
+    "content": "<p>Content for 'if Statements' goes here...</p>"
+  },
+  "js-else-statements": {
+    "title": "else Statements",
+    "content": "<p>Content for 'else Statements' goes here...</p>"
+  },
+  "js-else-if-statements": {
+    "title": "else if Statements",
+    "content": "<p>Content for 'else if Statements' goes here...</p>"
+  },
+  "js-switch-statements": {
+    "title": "switch Statements",
+    "content": "<p>Content for 'switch Statements' goes here...</p>"
+  },
+  "js-ternary-operator": {
+    "title": "Ternary Operator",
+    "content": "<p>Content for 'Ternary Operator' goes here...</p>"
+  },
+  "js-for-loop": {
+    "title": "for loop",
+    "content": "<p>Content for 'for loop' goes here...</p>"
+  },
+  "js-while-do-while": {
+    "title": "while / do...while",
+    "content": "<p>Content for 'while / do...while' goes here...</p>"
+  },
+  "js-break-continue": {
+    "title": "break / continue",
+    "content": "<p>Content for 'break / continue' goes here...</p>"
+  },
+  "js-iterate-arrays-basic": {
+    "title": "Iterate Arrays (Basic)",
+    "content": "<p>Content for 'Iterate Arrays (Basic)' goes here...</p>"
+  },
+  "js-quiz-3-control-flow": {
+    "title": "Quiz 3: Control Flow",
+    "content": "<p>Content for 'Quiz 3: Control Flow' goes here...</p>"
+  },
+  "js-intro-arrays": {
+    "title": "Intro Arrays",
+    "content": "<p>Content for 'Intro Arrays' goes here...</p>"
+  },
+  "js-create-access-arrays": {
+    "title": "Create/Access Arrays",
+    "content": "<p>Content for 'Create/Access Arrays' goes here...</p>"
+  },
+  "js-array-length": {
+    "title": "Array length",
+    "content": "<p>Content for 'Array length' goes here...</p>"
+  },
+  "js-basic-array-methods": {
+    "title": "Basic Array Methods",
+    "content": "<p>Content for 'Basic Array Methods' goes here...</p>"
+  },
+  "js-intro-objects": {
+    "title": "Intro Objects",
+    "content": "<p>Content for 'Intro Objects' goes here...</p>"
+  },
+  "js-create-objects": {
+    "title": "Create Objects",
+    "content": "<p>Content for 'Create Objects' goes here...</p>"
+  },
+  "js-access-object-properties": {
+    "title": "Access Object Properties",
+    "content": "<p>Content for 'Access Object Properties' goes here...</p>"
+  },
+  "js-add-modify-delete-properties": {
+    "title": "Add/Modify/Delete Properties",
+    "content": "<p>Content for 'Add/Modify/Delete Properties' goes here...</p>"
+  },
+  "js-nested-objects-arrays": {
+    "title": "Nested Objects/Arrays",
+    "content": "<p>Content for 'Nested Objects/Arrays' goes here...</p>"
+  },
+  "js-quiz-4-arrays-objects-basic": {
+    "title": "Quiz 4: Arrays/Objects (Basic)",
+    "content": "<p>Content for 'Quiz 4: Arrays/Objects (Basic)' goes here...</p>"
+  },
+  "js-what-are-functions": {
+    "title": "What are Functions?",
+    "content": "<p>Content for 'What are Functions?' goes here...</p>"
+  },
+  "js-function-declarations": {
+    "title": "Function Declarations",
+    "content": "<p>Content for 'Function Declarations' goes here...</p>"
+  },
+  "js-calling-functions": {
+    "title": "Calling Functions",
+    "content": "<p>Content for 'Calling Functions' goes here...</p>"
+  },
+  "js-parameters-arguments": {
+    "title": "Parameters/Arguments",
+    "content": "<p>Content for 'Parameters/Arguments' goes here...</p>"
+  },
+  "js-return-keyword": {
+    "title": "return Keyword",
+    "content": "<p>Content for 'return Keyword' goes here...</p>"
+  },
+  "js-function-expressions": {
+    "title": "Function Expressions",
+    "content": "<p>Content for 'Function Expressions' goes here...</p>"
+  },
+  "js-arrow-functions": {
+    "title": "Arrow Functions",
+    "content": "<p>Content for 'Arrow Functions' goes here...</p>"
+  },
+  "js-scope": {
+    "title": "Scope",
+    "content": "<p>Content for 'Scope' goes here...</p>"
+  },
+  "js-closurs-intro": {
+    "title": "Closures (Intro)",
+    "content": "<p>Content for 'Closures (Intro)' goes here...</p>"
+  },
+  "js-quiz-5-functions": {
+    "title": "Quiz 5: Functions",
+    "content": "<p>Content for 'Quiz 5: Functions' goes here...</p>"
+  },
+  "js-get-form-input-values": {
+    "title": "Get Form Input Values",
+    "content": "<p>Content for 'Get Form Input Values' goes here...</p>"
+  },
+  "js-submit-event": {
+    "title": "Submit Event",
+    "content": "<p>Content for 'Submit Event' goes here...</p>"
+  },
+  "js-prevent-default": {
+    "title": "Prevent Default",
+    "content": "<p>Content for 'Prevent Default' goes here...</p>"
+  },
+  "js-validate-input-basic": {
+    "title": "Validate Input (Basic)",
+    "content": "<p>Content for 'Validate Input (Basic)' goes here...</p>"
+  },
+  "js-input-change-events": {
+    "title": "Input/Change Events",
+    "content": "<p>Content for 'Input/Change Events' goes here...</p>"
+  },
+  "js-checkboxes-radio-buttons": {
+    "title": "Checkboxes/Radio Buttons",
+    "content": "<p>Content for 'Checkboxes/Radio Buttons' goes here...</p>"
+  },
+  "js-select-menus": {
+    "title": "Select Menus",
+    "content": "<p>Content for 'Select Menus' goes here...</p>"
+  },
+  "js-a11y-dynamic-forms": {
+    "title": "A11y Dynamic Forms",
+    "content": "<p>Content for 'A11y Dynamic Forms' goes here...</p>"
+  },
+  "js-quiz-6-forms": {
+    "title": "Quiz 6: Forms",
+    "content": "<p>Content for 'Quiz 6: Forms' goes here...</p>"
+  },
+  "js-string-properties-methods": {
+    "title": "String Properties/Methods",
+    "content": "<p>Content for 'String Properties/Methods' goes here...</p>"
+  },
+  "js-string-searching": {
+    "title": "String Searching",
+    "content": "<p>Content for 'String Searching' goes here...</p>"
+  },
+  "js-extract-substrings": {
+    "title": "Extract Substrings",
+    "content": "<p>Content for 'Extract Substrings' goes here...</p>"
+  },
+  "js-replace-split-strings": {
+    "title": "Replace/Split Strings",
+    "content": "<p>Content for 'Replace/Split Strings' goes here...</p>"
+  },
+  "js-number-properties-methods": {
+    "title": "Number Properties/Methods",
+    "content": "<p>Content for 'Number Properties/Methods' goes here...</p>"
+  },
+  "js-math-object": {
+    "title": "Math Object",
+    "content": "<p>Content for 'Math Object' goes here...</p>"
+  },
+  "js-date-object-basic": {
+    "title": "Date Object (Basic)",
+    "content": "<p>Content for 'Date Object (Basic)' goes here...</p>"
+  },
+  "js-quiz-7-strings-numbers": {
+    "title": "Quiz 7: Strings/Numbers",
+    "content": "<p>Content for 'Quiz 7: Strings/Numbers' goes here...</p>"
+  },
+  "js-advanced-array-methods": {
+    "title": "Advanced Array Methods",
+    "content": "<p>Content for 'Advanced Array Methods' goes here...</p>"
+  },
+  "js-spread-syntax": {
+    "title": "Spread Syntax (...)",
+    "content": "<p>Content for 'Spread Syntax (...)' goes here...</p>"
+  },
+  "js-destructuring": {
+    "title": "Destructuring",
+    "content": "<p>Content for 'Destructuring' goes here...</p>"
+  },
+  "js-object-iteration": {
+    "title": "Object Iteration",
+    "content": "<p>Content for 'Object Iteration' goes here...</p>"
+  },
+  "js-this-keyword-intro": {
+    "title": "The this Keyword (Intro)",
+    "content": "<p>Content for 'The this Keyword (Intro)' goes here...</p>"
+  },
+  "js-prototypes-intro": {
+    "title": "Prototypes (Intro)",
+    "content": "<p>Content for 'Prototypes (Intro)' goes here...</p>"
+  },
+  "js-quiz-8-arrays-objects-advanced": {
+    "title": "Quiz 8: Arrays/Objects (Advanced)",
+    "content": "<p>Content for 'Quiz 8: Arrays/Objects (Advanced)' goes here...</p>"
+  },
+  "js-what-is-async-js": {
+    "title": "What is Async JS?",
+    "content": "<p>Content for 'What is Async JS?' goes here...</p>"
+  },
+  "js-settimeout-setinterval": {
+    "title": "setTimeout/setInterval",
+    "content": "<p>Content for 'setTimeout/setInterval' goes here...</p>"
+  },
+  "js-callbacks-intro": {
+    "title": "Callbacks (Intro)",
+    "content": "<p>Content for 'Callbacks (Intro)' goes here...</p>"
+  },
+  "js-promises-intro": {
+    "title": "Promises (Intro)",
+    "content": "<p>Content for 'Promises (Intro)' goes here...</p>"
+  },
+  "js-fetch-api-basic": {
+    "title": "fetch() API (Basic)",
+    "content": "<p>Content for 'fetch() API (Basic)' goes here...</p>"
+  },
+  "js-working-with-json": {
+    "title": "Working with JSON",
+    "content": "<p>Content for 'Working with JSON' goes here...</p>"
+  },
+  "js-intro-web-apis": {
+    "title": "Intro Web APIs",
+    "content": "<p>Content for 'Intro Web APIs' goes here...</p>"
+  },
+  "js-geolocation-api": {
+    "title": "Geolocation API",
+    "content": "<p>Content for 'Geolocation API' goes here...</p>"
+  },
+  "js-history-api": {
+    "title": "History API",
+    "content": "<p>Content for 'History API' goes here...</p>"
+  },
+  "js-quiz-9-async-js-apis-beginner": {
+    "title": "Quiz 9: Async JS/APIs (Beginner)",
+    "content": "<p>Content for 'Quiz 9: Async JS/APIs (Beginner)' goes here...</p>"
+  },
+  "js-types-of-errors": {
+    "title": "Types of Errors",
+    "content": "<p>Content for 'Types of Errors' goes here...</p>"
+  },
+  "js-try-catch": {
+    "title": "try...catch",
+    "content": "<p>Content for 'try...catch' goes here...</p>"
+  },
+  "js-finally-block": {
+    "title": "finally Block",
+    "content": "<p>Content for 'finally Block' goes here...</p>"
+  },
+  "js-browser-dev-tools": {
+    "title": "Browser Dev Tools",
+    "content": "<p>Content for 'Browser Dev Tools' goes here...</p>"
+  },
+  "js-breakpoints": {
+    "title": "Breakpoints",
+    "content": "<p>Content for 'Breakpoints' goes here...</p>"
+  },
+  "js-logging-info": {
+    "title": "Logging Info",
+    "content": "<p>Content for 'Logging Info' goes here...</p>"
+  },
+  "js-debugging-strategies": {
+    "title": "Debugging Strategies",
+    "content": "<p>Content for 'Debugging Strategies' goes here...</p>"
+  },
+  "js-quiz-10-error-handling-debugging": {
+    "title": "Quiz 10: Error Handling/Debugging",
+    "content": "<p>Content for 'Quiz 10: Error Handling/Debugging' goes here...</p>"
+  },
+  "js-let-const": {
+    "title": "let and const",
+    "content": "<p>Content for 'let and const' goes here...</p>"
+  },
+  "js-arrow-functions-detailed": {
+    "title": "Arrow Functions (Detailed)",
+    "content": "<p>Content for 'Arrow Functions (Detailed)' goes here...</p>"
+  },
+  "js-template-literals": {
+    "title": "Template Literals",
+    "content": "<p>Content for 'Template Literals' goes here...</p>"
+  },
+  "js-default-parameters": {
+    "title": "Default Parameters",
+    "content": "<p>Content for 'Default Parameters' goes here...</p>"
+  },
+  "js-rest-spread": {
+    "title": "Rest/Spread",
+    "content": "<p>Content for 'Rest/Spread' goes here...</p>"
+  },
+  "js-destructuring": {
+    "title": "Destructuring",
+    "content": "<p>Content for 'Destructuring' goes here...</p>"
+  },
+  "js-classes": {
+    "title": "Classes",
+    "content": "<p>Content for 'Classes' goes here...</p>"
+  },
+  "js-modules-intro": {
+    "title": "Modules (Intro)",
+    "content": "<p>Content for 'Modules (Intro)' goes here...</p>"
+  },
+  "js-promises-async-await": {
+    "title": "Promises (async/await)",
+    "content": "<p>Content for 'Promises (async/await)' goes here...</p>"
+  },
+  "js-for-of-loop": {
+    "title": "for...of Loop",
+    "content": "<p>Content for 'for...of Loop' goes here...</p>"
+  },
+  "js-sets-maps": {
+    "title": "Sets and Maps",
+    "content": "<p>Content for 'Sets and Maps' goes here...</p>"
+  },
+  "js-quiz-11-es6-features": {
+    "title": "Quiz 11: ES6+ Features",
+    "content": "<p>Content for 'Quiz 11: ES6+ Features' goes here...</p>"
+  },
+  "js-manage-focus-programmatically": {
+    "title": "Manage Focus Programmatically",
+    "content": "<p>Content for 'Manage Focus Programmatically' goes here...</p>"
+  },
+  "js-accessible-keyboard-nav": {
+    "title": "Accessible Keyboard Nav",
+    "content": "<p>Content for 'Accessible Keyboard Nav' goes here...</p>"
+  },
+  "js-update-aria-dynamically": {
+    "title": "Update ARIA Dynamically",
+    "content": "<p>Content for 'Update ARIA Dynamically' goes here...</p>"
+  },
+  "js-accessible-custom-forms-js-aria": {
+    "title": "Accessible Custom Forms (JS/ARIA)",
+    "content": "<p>Content for 'Accessible Custom Forms (JS/ARIA)' goes here...</p>"
+  },
+  "js-announce-dynamic-content-live-regions": {
+    "title": "Announce Dynamic Content (Live Regions)",
+    "content": "<p>Content for 'Announce Dynamic Content (Live Regions)' goes here...</p>"
+  },
+  "js-handle-keyboard-events": {
+    "title": "Handle Keyboard Events",
+    "content": "<p>Content for 'Handle Keyboard Events' goes here...</p>"
+  },
+  "js-accessible-drag-and-drop": {
+    "title": "Accessible Drag and Drop",
+    "content": "<p>Content for 'Accessible Drag and Drop' goes here...</p>"
+  },
+  "js-test-js-with-a11y": {
+    "title": "Test JS with A11y",
+    "content": "<p>Content for 'Test JS with A11y' goes here...</p>"
+  },
+  "js-quiz-12-a11y-with-js": {
+    "title": "Quiz 12: A11y with JS",
+    "content": "<p>Content for 'Quiz 12: A11y with JS' goes here...</p>"
+  },
+  "js-fetch-api-more": {
+    "title": "fetch() API (More)",
+    "content": "<p>Content for 'fetch() API (More)' goes here...</p>"
+  },
+  "js-send-data-with-fetch": {
+    "title": "Send Data with fetch()",
+    "content": "<p>Content for 'Send Data with fetch()' goes here...</p>"
+  },
+  "js-handle-response-types": {
+    "title": "Handle Response Types",
+    "content": "<p>Content for 'Handle Response Types' goes here...</p>"
+  },
+  "js-working-with-api-headers": {
+    "title": "Working with API Headers",
+    "content": "<p>Content for 'Working with API Headers' goes here...</p>"
+  },
+  "js-api-authentication-basic": {
+    "title": "API Authentication (Basic)",
+    "content": "<p>Content for 'API Authentication (Basic)' goes here...</p>"
+  },
+  "js-error-handling-for-api": {
+    "title": "Error Handling for API",
+    "content": "<p>Content for 'Error Handling for API' goes here...</p>"
+  },
+  "js-web-api-standards-rest-graphql": {
+    "title": "Web API Standards (REST, GraphQL)",
+    "content": "<p>Content for 'Web API Standards (REST, GraphQL)' goes here...</p>"
+  },
+  "js-quiz-13-working-with-apis-intermediate": {
+    "title": "Quiz 13: Working with APIs (Intermediate)",
+    "content": "<p>Content for 'Quiz 13: Working with APIs (Intermediate)' goes here...</p>"
+  },
+  "js-what-are-frameworks-libraries": {
+    "title": "What are Frameworks/Libraries?",
+    "content": "<p>Content for 'What are Frameworks/Libraries?' goes here...</p>"
+  },
+  "js-why-use-framework-library": {
+    "title": "Why Use Framework/Library?",
+    "content": "<p>Content for 'Why Use Framework/Library?' goes here...</p>"
+  },
+  "js-basic-concepts-components-props-state": {
+    "title": "Basic Concepts (Components, Props, State)",
+    "content": "<p>Content for 'Basic Concepts (Components, Props, State)' goes here...</p>"
+  },
+  "js-role-of-js-in-frameworks": {
+    "title": "Role of JS in Frameworks",
+    "content": "<p>Content for 'Role of JS in Frameworks' goes here...</p>"
+  },
+  "js-setup-basic-project-conceptual": {
+    "title": "Setup Basic Project (Conceptual)",
+    "content": "<p>Content for 'Setup Basic Project (Conceptual)' goes here...</p>"
+  },
+  "js-quiz-14-frameworks-libraries-conceptual": {
+    "title": "Quiz 14: Frameworks/Libraries (Conceptual)",
+    "content": "<p>Content for 'Quiz 14: Frameworks/Libraries (Conceptual)' goes here...</p>"
+  },
+  "js-intro-js-testing": {
+    "title": "Intro JS Testing",
+    "content": "<p>Content for 'Intro JS Testing' goes here...</p>"
+  },
+  "js-basic-testing-frameworks": {
+    "title": "Basic Testing Frameworks",
+    "content": "<p>Content for 'Basic Testing Frameworks' goes here...</p>"
+  },
+  "js-writing-simple-tests": {
+    "title": "Writing Simple Tests",
+    "content": "<p>Content for 'Writing Simple Tests' goes here...</p>"
+  },
+  "js-code-linting-formatting": {
+    "title": "Code Linting/Formatting",
+    "content": "<p>Content for 'Code Linting/Formatting' goes here...</p>"
+  },
+  "js-basic-deployment-concepts": {
+    "title": "Basic Deployment Concepts",
+    "content": "<p>Content for 'Basic Deployment Concepts' goes here...</p>"
+  },
+  "js-quiz-15-testing-deployment": {
+    "title": "Quiz 15: Testing/Deployment",
+    "content": "<p>Content for 'Quiz 15: Testing/Deployment' goes here...</p>"
+  },
+  "js-prototypes-inheritance-deep-dive": {
+    "title": "Prototypes/Inheritance (Deep Dive)",
+    "content": "<p>Content for 'Prototypes/Inheritance (Deep Dive)' goes here...</p>"
+  },
+  "js-advanced-closures-scope": {
+    "title": "Advanced Closures/Scope",
+    "content": "<p>Content for 'Advanced Closures/Scope' goes here...</p>"
+  },
+  "js-web-workers-detailed": {
+    "title": "Web Workers (Detailed)",
+    "content": "<p>Content for 'Web Workers (Detailed)' goes here...</p>"
+  },
+  "js-service-workers-pwas": {
+    "title": "Service Workers/PWAs",
+    "content": "<p>Content for 'Service Workers/PWAs' goes here...</p>"
+  },
+  "js-advanced-dom-performance": {
+    "title": "Advanced DOM/Performance",
+    "content": "<p>Content for 'Advanced DOM/Performance' goes here...</p>"
+  },
+  "js-node-js-intro": {
+    "title": "Node.js (Intro)",
+    "content": "<p>Content for 'Node.js (Intro)' goes here...</p>"
+  },
+  "js-package-managers-npm-yarn": {
+    "title": "Package Managers (npm, yarn)",
+    "content": "<p>Content for 'Package Managers (npm, yarn)' goes here...</p>"
+  },
+  "js-build-apis-with-node-js": {
+    "title": "Build APIs with Node.js",
+    "content": "<p>Content for 'Build APIs with Node.js' goes here...</p>"
+  },
+  "js-advanced-framework-library": {
+    "title": "Advanced Framework/Library",
+    "content": "<p>Content for 'Advanced Framework/Library' goes here...</p>"
+  },
+  "js-js-security-best-practices": {
+    "title": "JS Security Best Practices",
+    "content": "<p>Content for 'JS Security Best Practices' goes here...</p>"
+  },
+  "js-perf-optimization-complex": {
+    "title": "Perf Optimization (Complex)",
+    "content": "<p>Content for 'Perf Optimization (Complex)' goes here...</p>"
+  },
+  "js-contribute-to-open-source": {
+    "title": "Contribute to Open Source",
+    "content": "<p>Content for 'Contribute to Open Source' goes here...</p>"
+  },
+  "js-stay-up-to-date-ecosystem": {
+    "title": "Stay Up-to-Date (Ecosystem)",
+    "content": "<p>Content for 'Stay Up-to-Date (Ecosystem)' goes here...</p>"
+  },
+  "js-final-project": {
+    "title": "Final Project",
+    "content": "<p>Content for 'Final Project' goes here...</p>"
+  },
+  "aria-what-is-aria": {
+    "title": "What is ARIA?",
+    "content": "<p>Content for 'What is ARIA?' goes here...</p>"
+  },
+  "aria-why-is-aria-necessary": {
+    "title": "Why is ARIA Necessary?",
+    "content": "<p>Content for 'Why is ARIA Necessary?' goes here...</p>"
+  },
+  "aria-aria-features-roles-states-properties": {
+    "title": "ARIA Features: Roles, States, Properties",
+    "content": "<p>Content for 'ARIA Features: Roles, States, Properties' goes here...</p>"
+  },
+  "aria-aria-semantic-html": {
+    "title": "ARIA + Semantic HTML",
+    "content": "<p>Content for 'ARIA + Semantic HTML' goes here...</p>"
+  },
+  "aria-importance-of-a11y": {
+    "title": "Importance of A11y",
+    "content": "<p>Content for 'Importance of A11y' goes here...</p>"
+  },
+  "aria-aria-screen-readers": {
+    "title": "ARIA + Screen Readers",
+    "content": "<p>Content for 'ARIA + Screen Readers' goes here...</p>"
+  },
+  "aria-basic-aria-example-role": {
+    "title": "Basic ARIA Example (role)",
+    "content": "<p>Content for 'Basic ARIA Example (role)' goes here...</p>"
+  },
+  "aria-beginner-mistakes": {
+    "title": "Beginner Mistakes",
+    "content": "<p>Content for 'Beginner Mistakes' goes here...</p>"
+  },
+  "aria-quiz-1-what-why-aria": {
+    "title": "Quiz 1: What/Why ARIA?",
+    "content": "<p>Content for 'Quiz 1: What/Why ARIA?' goes here...</p>"
+  },
+  "aria-intro-landmark-roles": {
+    "title": "Intro Landmark Roles",
+    "content": "<p>Content for 'Intro Landmark Roles' goes here...</p>"
+  },
+  "aria-role-banner": {
+    "title": "role=\"banner\"",
+    "content": "<p>Content for 'role=\"banner\"' goes here...</p>"
+  },
+  "aria-role-navigation": {
+    "title": "role=\"navigation\"",
+    "content": "<p>Content for 'role=\"navigation\"' goes here...</p>"
+  },
+  "aria-role-main": {
+    "title": "role=\"main\"",
+    "content": "<p>Content for 'role=\"main\"' goes here...</p>"
+  },
+  "aria-role-complementary": {
+    "title": "role=\"complementary\"",
+    "content": "<p>Content for 'role=\"complementary\"' goes here...</p>"
+  },
+  "aria-role-contentinfo": {
+    "title": "role=\"contentinfo\"",
+    "content": "<p>Content for 'role=\"contentinfo\"' goes here...</p>"
+  },
+  "aria-role-search": {
+    "title": "role=\"search\"",
+    "content": "<p>Content for 'role=\"search\"' goes here...</p>"
+  },
+  "aria-role-application-use-case": {
+    "title": "role=\"application\" (Use Case)",
+    "content": "<p>Content for 'role=\"application\" (Use Case)' goes here...</p>"
+  },
+  "aria-intro-structural-roles": {
+    "title": "Intro Structural Roles",
+    "content": "<p>Content for 'Intro Structural Roles' goes here...</p>"
+  },
+  "aria-role-article": {
+    "title": "role=\"article\"",
+    "content": "<p>Content for 'role=\"article\"' goes here...</p>"
+  },
+  "aria-role-region": {
+    "title": "role=\"region\"",
+    "content": "<p>Content for 'role=\"region\"' goes here...</p>"
+  },
+  "aria-role-group": {
+    "title": "role=\"group\"",
+    "content": "<p>Content for 'role=\"group\"' goes here...</p>"
+  },
+  "aria-role-list-listitem": {
+    "title": "role=\"list/listItem\"",
+    "content": "<p>Content for 'role=\"list/listItem\"' goes here...</p>"
+  },
+  "aria-role-definition": {
+    "title": "role=\"definition\"",
+    "content": "<p>Content for 'role=\"definition\"' goes here...</p>"
+  },
+  "aria-role-term": {
+    "title": "role=\"term\"",
+    "content": "<p>Content for 'role=\"term\"' goes here...</p>"
+  },
+  "aria-quiz-2-landmark-structural": {
+    "title": "Quiz 2: Landmark/Structural",
+    "content": "<p>Content for 'Quiz 2: Landmark/Structural' goes here...</p>"
+  },
+  "aria-intro-widget-roles": {
+    "title": "Intro Widget Roles",
+    "content": "<p>Content for 'Intro Widget Roles' goes here...</p>"
+  },
+  "aria-role-button": {
+    "title": "role=\"button\"",
+    "content": "<p>Content for 'role=\"button\"' goes here...</p>"
+  },
+  "aria-role-link": {
+    "title": "role=\"link\"",
+    "content": "<p>Content for 'role=\"link\"' goes here...</p>"
+  },
+  "aria-role-checkbox": {
+    "title": "role=\"checkbox\"",
+    "content": "<p>Content for 'role=\"checkbox\"' goes here...</p>"
+  },
+  "aria-role-radio-radiogroup": {
+    "title": "role=\"radio/radiogroup\"",
+    "content": "<p>Content for 'role=\"radio/radiogroup\"' goes here...</p>"
+  },
+  "aria-role-textbox": {
+    "title": "role=\"textbox\"",
+    "content": "<p>Content for 'role=\"textbox\"' goes here...</p>"
+  },
+  "aria-role-combobox": {
+    "title": "role=\"combobox\"",
+    "content": "<p>Content for 'role=\"combobox\"' goes here...</p>"
+  },
+  "aria-role-listbox-option": {
+    "title": "role=\"listbox/option\"",
+    "content": "<p>Content for 'role=\"listbox/option\"' goes here...</p>"
+  },
+  "aria-role-menu-menubar-menuitem": {
+    "title": "role=\"menu/menubar/menuitem\"",
+    "content": "<p>Content for 'role=\"menu/menubar/menuitem\"' goes here...</p>"
+  },
+  "aria-role-tab-tablist-tabpanel": {
+    "title": "role=\"tab/tablist/tabpanel\"",
+    "content": "<p>Content for 'role=\"tab/tablist/tabpanel\"' goes here...</p>"
+  },
+  "aria-role-tree-treeitem-treegrid": {
+    "title": "role=\"tree/treeitem/treegrid\"",
+    "content": "<p>Content for 'role=\"tree/treeitem/treegrid\"' goes here...</p>"
+  },
+  "aria-role-slider": {
+    "title": "role=\"slider\"",
+    "content": "<p>Content for 'role=\"slider\"' goes here...</p>"
+  },
+  "aria-role-progressbar-meter": {
+    "title": "role=\"progressbar/meter\"",
+    "content": "<p>Content for 'role=\"progressbar/meter\"' goes here...</p>"
+  },
+  "aria-role-tooltip": {
+    "title": "role=\"tooltip\"",
+    "content": "<p>Content for 'role=\"tooltip\"' goes here...</p>"
+  },
+  "aria-role-alert-alertdialog": {
+    "title": "role=\"alert/alertdialog\"",
+    "content": "<p>Content for 'role=\"alert/alertdialog\"' goes here...</p>"
+  },
+  "aria-quiz-3-widget-roles": {
+    "title": "Quiz 3: Widget Roles",
+    "content": "<p>Content for 'Quiz 3: Widget Roles' goes here...</p>"
+  },
+  "aria-intro-states-properties": {
+    "title": "Intro States/Properties",
+    "content": "<p>Content for 'Intro States/Properties' goes here...</p>"
+  },
+  "aria-state-vs-property": {
+    "title": "State vs Property",
+    "content": "<p>Content for 'State vs Property' goes here...</p>"
+  },
+  "aria-aria-expanded": {
+    "title": "aria-expanded",
+    "content": "<p>Content for 'aria-expanded' goes here...</p>"
+  },
+  "aria-aria-selected": {
+    "title": "aria-selected",
+    "content": "<p>Content for 'aria-selected' goes here...</p>"
+  },
+  "aria-aria-checked": {
+    "title": "aria-checked",
+    "content": "<p>Content for 'aria-checked' goes here...</p>"
+  },
+  "aria-aria-disabled": {
+    "title": "aria-disabled",
+    "content": "<p>Content for 'aria-disabled' goes here...</p>"
+  },
+  "aria-aria-label": {
+    "title": "aria-label",
+    "content": "<p>Content for 'aria-label' goes here...</p>"
+  },
+  "aria-aria-labelledby": {
+    "title": "aria-labelledby",
+    "content": "<p>Content for 'aria-labelledby' goes here...</p>"
+  },
+  "aria-aria-describedby": {
+    "title": "aria-describedby",
+    "content": "<p>Content for 'aria-describedby' goes here...</p>"
+  },
+  "aria-quiz-4-basic-states-properties": {
+    "title": "Quiz 4: Basic States/Properties",
+    "content": "<p>Content for 'Quiz 4: Basic States/Properties' goes here...</p>"
+  },
+  "aria-aria-current": {
+    "title": "aria-current",
+    "content": "<p>Content for 'aria-current' goes here...</p>"
+  },
+  "aria-aria-pressed": {
+    "title": "aria-pressed",
+    "content": "<p>Content for 'aria-pressed' goes here...</p>"
+  },
+  "aria-aria-busy": {
+    "title": "aria-busy",
+    "content": "<p>Content for 'aria-busy' goes here...</p>"
+  },
+  "aria-aria-invalid": {
+    "title": "aria-invalid",
+    "content": "<p>Content for 'aria-invalid' goes here...</p>"
+  },
+  "aria-aria-controls": {
+    "title": "aria-controls",
+    "content": "<p>Content for 'aria-controls' goes here...</p>"
+  },
+  "aria-aria-owns": {
+    "title": "aria-owns",
+    "content": "<p>Content for 'aria-owns' goes here...</p>"
+  },
+  "aria-aria-posinset-setsize": {
+    "title": "aria-posinset/setsize",
+    "content": "<p>Content for 'aria-posinset/setsize' goes here...</p>"
+  },
+  "aria-aria-valuemin-max-now": {
+    "title": "aria-valuemin/max/now",
+    "content": "<p>Content for 'aria-valuemin/max/now' goes here...</p>"
+  },
+  "aria-enhance-custom-forms": {
+    "title": "Enhance Custom Forms",
+    "content": "<p>Content for 'Enhance Custom Forms' goes here...</p>"
+  },
+  "aria-accessible-dynamic-content-live-regions": {
+    "title": "Accessible Dynamic Content (Live Regions)",
+    "content": "<p>Content for 'Accessible Dynamic Content (Live Regions)' goes here...</p>"
+  },
+  "aria-quiz-5-intermediate-states-properties": {
+    "title": "Quiz 5: Intermediate States/Properties",
+    "content": "<p>Content for 'Quiz 5: Intermediate States/Properties' goes here...</p>"
+  },
+  "aria-intro-live-regions": {
+    "title": "Intro Live Regions",
+    "content": "<p>Content for 'Intro Live Regions' goes here...</p>"
+  },
+  "aria-aria-live-off": {
+    "title": "aria-live=\"off\"",
+    "content": "<p>Content for 'aria-live=\"off\"' goes here...</p>"
+  },
+  "aria-aria-live-polite": {
+    "title": "aria-live=\"polite\"",
+    "content": "<p>Content for 'aria-live=\"polite\"' goes here...</p>"
+  },
+  "aria-aria-live-assertive": {
+    "title": "aria-live=\"assertive\"",
+    "content": "<p>Content for 'aria-live=\"assertive\"' goes here...</p>"
+  },
+  "aria-aria-relevant": {
+    "title": "aria-relevant",
+    "content": "<p>Content for 'aria-relevant' goes here...</p>"
+  },
+  "aria-aria-atomic": {
+    "title": "aria-atomic",
+    "content": "<p>Content for 'aria-atomic' goes here...</p>"
+  },
+  "aria-live-region-best-practices": {
+    "title": "Live Region Best Practices",
+    "content": "<p>Content for 'Live Region Best Practices' goes here...</p>"
+  },
+  "aria-live-region-pitfalls": {
+    "title": "Live Region Pitfalls",
+    "content": "<p>Content for 'Live Region Pitfalls' goes here...</p>"
+  },
+  "aria-live-region-examples": {
+    "title": "Live Region Examples",
+    "content": "<p>Content for 'Live Region Examples' goes here...</p>"
+  },
+  "aria-quiz-6-live-regions": {
+    "title": "Quiz 6: Live Regions",
+    "content": "<p>Content for 'Quiz 6: Live Regions' goes here...</p>"
+  },
+  "aria-js-role-in-aria-updates": {
+    "title": "JS Role in ARIA Updates",
+    "content": "<p>Content for 'JS Role in ARIA Updates' goes here...</p>"
+  },
+  "aria-update-states-properties-with-js": {
+    "title": "Update States/Properties with JS",
+    "content": "<p>Content for 'Update States/Properties with JS' goes here...</p>"
+  },
+  "aria-manage-focus-with-js": {
+    "title": "Manage Focus with JS",
+    "content": "<p>Content for 'Manage Focus with JS' goes here...</p>"
+  },
+  "aria-accessible-keyboard-interactions-js": {
+    "title": "Accessible Keyboard Interactions (JS)",
+    "content": "<p>Content for 'Accessible Keyboard Interactions (JS)' goes here...</p>"
+  },
+  "aria-announce-dynamic-content-js": {
+    "title": "Announce Dynamic Content (JS)",
+    "content": "<p>Content for 'Announce Dynamic Content (JS)' goes here...</p>"
+  },
+  "aria-update-aria-on-interaction": {
+    "title": "Update ARIA on Interaction",
+    "content": "<p>Content for 'Update ARIA on Interaction' goes here...</p>"
+  },
+  "aria-test-dynamic-aria-with-screen-readers": {
+    "title": "Test Dynamic ARIA with Screen Readers",
+    "content": "<p>Content for 'Test Dynamic ARIA with Screen Readers' goes here...</p>"
+  },
+  "aria-quiz-7-aria-js": {
+    "title": "Quiz 7: ARIA and JS",
+    "content": "<p>Content for 'Quiz 7: ARIA and JS' goes here...</p>"
+  },
+  "aria-rule-1-no-aria-if-native-html-works": {
+    "title": "Rule 1: No ARIA if Native HTML Works",
+    "content": "<p>Content for 'Rule 1: No ARIA if Native HTML Works' goes here...</p>"
+  },
+  "aria-rule-2-if-aria-make-it-correct": {
+    "title": "Rule 2: If ARIA, Make it Correct",
+    "content": "<p>Content for 'Rule 2: If ARIA, Make it Correct' goes here...</p>"
+  },
+  "aria-rule-3-keyboard-usable": {
+    "title": "Rule 3: Keyboard Usable",
+    "content": "<p>Content for 'Rule 3: Keyboard Usable' goes here...</p>"
+  },
+  "aria-rule-4-role-presentation-none": {
+    "title": "Rule 4: role=\"presentation\"/none",
+    "content": "<p>Content for 'Rule 4: role=\"presentation\"/none' goes here...</p>"
+  },
+  "aria-pattern-accessible-accordions": {
+    "title": "Pattern: Accessible Accordions",
+    "content": "<p>Content for 'Pattern: Accessible Accordions' goes here...</p>"
+  },
+  "aria-pattern-accessible-modal-dialogs": {
+    "title": "Pattern: Accessible Modal Dialogs",
+    "content": "<p>Content for 'Pattern: Accessible Modal Dialogs' goes here...</p>"
+  },
+  "aria-pattern-accessible-carousels": {
+    "title": "Pattern: Accessible Carousels",
+    "content": "<p>Content for 'Pattern: Accessible Carousels' goes here...</p>"
+  },
+  "aria-pattern-accessible-toolbars": {
+    "title": "Pattern: Accessible Toolbars",
+    "content": "<p>Content for 'Pattern: Accessible Toolbars' goes here...</p>"
+  },
+  "aria-pattern-accessible-data-tables": {
+    "title": "Pattern: Accessible Data Tables",
+    "content": "<p>Content for 'Pattern: Accessible Data Tables' goes here...</p>"
+  },
+  "aria-quiz-8-best-practices-patterns": {
+    "title": "Quiz 8: Best Practices/Patterns",
+    "content": "<p>Content for 'Quiz 8: Best Practices/Patterns' goes here...</p>"
+  },
+  "aria-inspect-aria-dev-tools": {
+    "title": "Inspect ARIA (Dev Tools)",
+    "content": "<p>Content for 'Inspect ARIA (Dev Tools)' goes here...</p>"
+  },
+  "aria-a11y-testing-tools": {
+    "title": "A11y Testing Tools",
+    "content": "<p>Content for 'A11y Testing Tools' goes here...</p>"
+  },
+  "aria-test-with-screen-readers-basic": {
+    "title": "Test with Screen Readers (Basic)",
+    "content": "<p>Content for 'Test with Screen Readers (Basic)' goes here...</p>"
+  },
+  "aria-keyboard-nav-testing": {
+    "title": "Keyboard Nav Testing",
+    "content": "<p>Content for 'Keyboard Nav Testing' goes here...</p>"
+  },
+  "aria-identify-aria-errors": {
+    "title": "Identify ARIA Errors",
+    "content": "<p>Content for 'Identify ARIA Errors' goes here...</p>"
+  },
+  "aria-a11y-conformance-wcag-aria": {
+    "title": "A11y Conformance (WCAG/ARIA)",
+    "content": "<p>Content for 'A11y Conformance (WCAG/ARIA)' goes here...</p>"
+  },
+  "aria-user-testing-with-assistive-tech": {
+    "title": "User Testing with Assistive Tech",
+    "content": "<p>Content for 'User Testing with Assistive Tech' goes here...</p>"
+  },
+  "aria-quiz-9-aria-a11y-testing": {
+    "title": "Quiz 9: ARIA/A11y Testing",
+    "content": "<p>Content for 'Quiz 9: ARIA/A11y Testing' goes here...</p>"
+  },
+  "aria-aria-authoring-practices-guide": {
+    "title": "ARIA Authoring Practices Guide (APG)",
+    "content": "<p>Content for 'ARIA Authoring Practices Guide (APG)' goes here...</p>"
+  },
+  "aria-advanced-states-properties": {
+    "title": "Advanced States/Properties",
+    "content": "<p>Content for 'Advanced States/Properties' goes here...</p>"
+  },
+  "aria-touch-interactions": {
+    "title": "Touch Interactions",
+    "content": "<p>Content for 'Touch Interactions' goes here...</p>"
+  },
+  "aria-aria-in-spas": {
+    "title": "ARIA in SPAs",
+    "content": "<p>Content for 'ARIA in SPAs' goes here...</p>"
+  },
+  "aria-aria-ssr": {
+    "title": "ARIA and SSR",
+    "content": "<p>Content for 'ARIA and SSR' goes here...</p>"
+  },
+  "aria-future-of-aria": {
+    "title": "Future of ARIA",
+    "content": "<p>Content for 'Future of ARIA' goes here...</p>"
+  },
+  "aria-contribute-to-aria-docs": {
+    "title": "Contribute to ARIA Docs",
+    "content": "<p>Content for 'Contribute to ARIA Docs' goes here...</p>"
+  },
+  "aria-quiz-10-advanced-concepts": {
+    "title": "Quiz 10: Advanced Concepts",
+    "content": "<p>Content for 'Quiz 10: Advanced Concepts' goes here...</p>"
+  },
+  "aria-aria-semantic-html-revisited": {
+    "title": "ARIA + Semantic HTML (Revisited)",
+    "content": "<p>Content for 'ARIA + Semantic HTML (Revisited)' goes here...</p>"
+  },
+  "aria-aria-css": {
+    "title": "ARIA + CSS",
+    "content": "<p>Content for 'ARIA + CSS' goes here...</p>"
+  },
+  "aria-aria-svg-a11y": {
+    "title": "ARIA + SVG A11y",
+    "content": "<p>Content for 'ARIA + SVG A11y' goes here...</p>"
+  },
+  "aria-aria-web-components": {
+    "title": "ARIA + Web Components",
+    "content": "<p>Content for 'ARIA + Web Components' goes here...</p>"
+  },
+  "aria-aria-in-native-mobile": {
+    "title": "ARIA in Native Mobile",
+    "content": "<p>Content for 'ARIA in Native Mobile' goes here...</p>"
+  },
+  "aria-quiz-11-related-tech": {
+    "title": "Quiz 11: Related Tech",
+    "content": "<p>Content for 'Quiz 11: Related Tech' goes here...</p>"
+  },
+  "aria-complex-widget-implementations": {
+    "title": "Complex Widget Implementations",
+    "content": "<p>Content for 'Complex Widget Implementations' goes here...</p>"
+  },
+  "aria-perf-optimization-aria-updates": {
+    "title": "Perf Optimization (ARIA Updates)",
+    "content": "<p>Content for 'Perf Optimization (ARIA Updates)' goes here...</p>"
+  },
+  "aria-advanced-a11y-testing-debugging": {
+    "title": "Advanced A11y Testing/Debugging",
+    "content": "<p>Content for 'Advanced A11y Testing/Debugging' goes here...</p>"
+  },
+  "aria-contribute-to-aria-specs": {
+    "title": "Contribute to ARIA Specs",
+    "content": "<p>Content for 'Contribute to ARIA Specs' goes here...</p>"
+  },
+  "aria-emerging-a11y-apis": {
+    "title": "Emerging A11y APIs",
+    "content": "<p>Content for 'Emerging A11y APIs' goes here...</p>"
+  },
+  "aria-advocate-for-a11y-inclusive-design": {
+    "title": "Advocate for A11y/Inclusive Design",
+    "content": "<p>Content for 'Advocate for A11y/Inclusive Design' goes here...</p>"
+  },
+  "aria-final-project": {
+    "title": "Final Project",
+    "content": "<p>Content for 'Final Project' goes here...</p>"
   }
 }
