@@ -126,6 +126,9 @@ p {
     margin-right: var(--space-xs); /* Small gap between tabs */
     margin-bottom: -2px; /* Pull tab down slightly to overlap the tablist border */
     flex-shrink: 0; /* Prevent tabs from shrinking */
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 100;
+    color: var(--color-text-body);
 }
 
 [role="tab"][aria-selected="true"] {
@@ -133,7 +136,7 @@ p {
     border-color: var(--color-border-light); /* Keep side/top borders */
     border-bottom-color: var(--color-background-selected-tab); /* Match panel background */
     border-bottom-width: 2px; /* Match tablist border width */
-    font-weight: bold; /* Optional: Make selected tab text bold */
+    font-weight: 500; /* Optional: Make selected tab text bold */
 }
 
 /* High Priority CSS: Clear focus indicators */

@@ -19,10 +19,14 @@
     <meta property="og:description"
         content="Master accessible web development with tutorials on HTML, CSS, JavaScript, and ARIA.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.yourwebsite.com/">
-    <meta property="og:image" content="https://www.yourwebsite.com/assets/share-image.jpg">
+    <meta property="og:url" content="https://www.codea11y.dev/">
     <meta property="og:locale" content="en_US">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="canonical" href="https://www.codea11y.dev/">
 
+    <!-- Finish later
+    <meta property="og:image" content="https://www.yourwebsite.com/assets/share-image.jpg">
+    
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="CodeA11y | Learn Web Accessibility">
     <meta name="twitter:description"
@@ -30,13 +34,12 @@
     <meta name="twitter:image" content="https://www.yourwebsite.com/assets/twitter-share-image.jpg">
     <meta name="twitter:site" content="@YourTwitterHandle">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
-
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <link rel="canonical" href="https://www.yourwebsite.com/">
     <meta name="google-site-verification" content="">
     <meta name="bing-site-auth" content="">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="format-detection" content="telephone=no, email=no, address=no">
+
+    -->
 
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,12 +56,12 @@
             <img src="assets/codea11y_logo.svg" alt="codea11y" loading="lazy">
         </div>
         <nav class="navbar">
-            <ul>
+            <!--<ul>
                 <li><a href="/learn">Learn</a></li>
                 <li><a href="/about">About Me</a></li>
                 <li><a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer">YouTube</a>
                 </li>
-            </ul>
+            </ul>-->
         </nav>
     </header>
 
@@ -93,9 +96,9 @@
                         <button type="button" data-article="html-the-body-section" aria-selected="false"
                             data-toggle-group="html-i">The &lt;body&gt; Section</button>
                         <button type="button" data-article="html-headings-h1-h6" aria-selected="false"
-                            data-toggle-group="html-i">Headings (<h1> to <h6>)</button>
+                            data-toggle-group="html-i">Headings (&lt;h1&gt; to &lt;h6&gt;)</button>
                         <button type="button" data-article="html-paragraphs-p" aria-selected="false"
-                            data-toggle-group="html-i">Paragraphs (<p>)</button>
+                            data-toggle-group="html-i">Paragraphs (&lt;p&gt;)</button>
                         <button type="button" data-article="html-text-format-bold" aria-selected="false"
                             data-toggle-group="html-i">Text Format: Bold</button>
                         <button type="button" data-article="html-text-format-italics" aria-selected="false"
@@ -137,9 +140,11 @@
                         <button type="button" data-article="html-content-div" aria-selected="false"
                             data-toggle-group="html-ii">Content: &lt;div&gt;</button>
                         <button type="button" data-article="html-semantic-header-nav-main-footer" aria-selected="false"
-                            data-toggle-group="html-ii">Semantic: <header>, <nav>, <main>, <footer></button>
+                            data-toggle-group="html-ii">Semantic: &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;,
+                            &lt;footer&gt;</button>
                         <button type="button" data-article="html-semantic-article-section-aside" aria-selected="false"
-                            data-toggle-group="html-ii">Semantic: <article>, <section>, <aside></button>
+                            data-toggle-group="html-ii">Semantic: &lt;article&gt;, &lt;section&gt;,
+                            &lt;aside&gt;</button>
                         <button type="button" data-article="html-inline-vs-block" aria-selected="false"
                             data-toggle-group="html-ii">Inline vs Block</button>
                         <button type="button" data-article="html-quiz-2-lists-images-links" aria-selected="false"
@@ -1793,19 +1798,12 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-links">
-            <ul>
-                <li><a href="#">Learn</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="https://www.youtube.com/channel/UCXKRL86_pPtqy_C_13ikaew" target="_blank"
-                        rel="noopener noreferrer">YouTube</a>
-                </li>
-            </ul>
-        </div>
         <div class="contact-info">
-            <p>© 2025 Daniel Westfall | <a href="mailto:your.email@example.com">Email: your.email@example.com</a> | <a
-                    href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank"
-                    rel="noopener noreferrer">LinkedIn</a></p>
+            <p>© 2025 Daniel Westfall | <a href="mailto:daniel@codea11y.dev">Email: daniel@codea11y.dev</a> | <a
+                    href="https://www.linkedin.com/in/danielwestfall/" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a> | <a
+                    href="https://www.youtube.com/channel/UCXKRL86_pPtqy_C_13ikaew" target="_blank"
+                    rel="noopener noreferrer">YouTube</a></p>
         </div>
     </footer>
 
